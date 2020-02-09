@@ -25,7 +25,9 @@ SECRET_KEY = 'e8kun4n!a@4#w*-z2!u@_@1&yl00d(61#c&qabui2x3yac9&kr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'stackvis.herokuapp.com'
+]
 
 
 # Application definition
