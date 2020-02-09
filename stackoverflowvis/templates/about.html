@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About us</title>
+    {% load static %}
+
+    <link href="{% static "/vendor/Bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{% static "/css/style.css" %}" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/stackoverflowvis">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="worldmap">World Map</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="table-titles">Title topics</a>
+                  <a class="dropdown-item" href="table-features">Features table</a>
+                  <a class="dropdown-item" href="tag-cloud">Tag Cloud</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <div class="overlay"></div>
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">Big Data Analitics</h1>
+                <h1 class="display-4">Using Python</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <h1 class="my-4">Page Heading
+        <small>Secondary Text</small>
+    </h1>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+        <div class="col-md-6">
+            <img class="img-fluid" src="{% static "img/stackoverflow.png"  %} " alt="">
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="">Project Description</h3>
+            <p>Building a website using Django to view the accurate analyzes and studies we've done on Stack Overflow dataset by Spark and Python.
+Stack Overflow (SO) is the largest Q&A website for developers, providing a huge amount of data,. This web sites often rely upon tags as metadata that assists in the indexing, categorization, and search for particular content with just a few key words.
+The most obvious benefit stems from the fact that tags help ensure that website data is properly categorized and easily searchable by users.
+This was the biggest motivation for us to conduct large-scale analytical studies on the Stack Overflow social network using  graph theory.
+The underlying structure of the Stack Overflow network is diverse and complex since users and tags can be related through various questions, answers, and comments. We picked certain relationships between objects that we deemed to likely be the most indicative and constructed the appropriate graphs.
+Some of the results that we tried to find by analyzing the questions asked in Stack Overflow
+The development of programming languages over time based on use of their tags since 2008</p>
+
+
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+                <h5 class="my-3">types of algorithms we used:</h5>
+                <ul>
+                    <li>classification</li>
+                    <li>clustering</li>
+                    <li>community detection</li>
+                    <li>machine learning algorithm</li>
+                </ul>
+        </div>
+        <div class="col-md-9">
+                <h5 class="my-3">we try to find  the  hidden valued pattern  and visualize it  in many different ways  such as :</h5>
+                <ul>
+                    <li>classification</li>
+                    <li>clustering</li>
+                    <li>community detection</li>
+                    <li>machine learning algorithm</li>
+                </ul>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+        <div class="col-md-8">
+            <img class="img-fluid" src="{% static "img/heatmapeimg.png"  %} " alt="">
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="my-3">Project Description</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+            <h3 class="my-3">Project Details</h3>
+            <ul>
+                <li>Lorem Ipsum</li>
+                <li>Dolor Sit Amet</li>
+                <li>Consectetur</li>
+                <li>Adipiscing Elit</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+        <div class="col-md-8">
+            <img class="img-fluid" src="{% static "img/heatmapeimg.png"  %} " alt="">
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="my-3">Project Description</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+            <h3 class="my-3">Project Details</h3>
+            <ul>
+                <li>Lorem Ipsum</li>
+                <li>Dolor Sit Amet</li>
+                <li>Consectetur</li>
+                <li>Adipiscing Elit</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+        <div class="col-md-8">
+            <img class="img-fluid" src="{% static "img/heatmapeimg.png"  %} " alt="">
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="my-3">Project Description</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+            <h3 class="my-3">Project Details</h3>
+            <ul>
+                <li>Lorem Ipsum</li>
+                <li>Dolor Sit Amet</li>
+                <li>Consectetur</li>
+                <li>Adipiscing Elit</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Related Projects Row -->
+    <h3 class="my-4">Related Projects</h3>
+
+    <div class="row">
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <a href="#">
+                <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <a href="#">
+                <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <a href="#">
+                <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <a href="#">
+                <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+            </a>
+        </div>
+
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+<script src={% static "js/jquery-3.2.1.min.js" %}></script>
+<script src={% static "vendor/bootstrap/js/bootstrap.min.js" %}></script>
+
+</body>
+</html>

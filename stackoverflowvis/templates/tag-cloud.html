@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tag Cloud</title>
+    {% load static %}
+
+    <link href="{% static "/vendor/Bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{% static "/vendor/cloud/jqcloud.css" %}" rel="stylesheet">
+    <link href="{% static "/css/style.css" %}" rel="stylesheet">
+    <style>
+        #my_favorite_latin_words{
+            background:#fff;
+            height: 70vh;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        span{
+          cursor: pointer;
+        }
+        .table th, .table td{
+      padding: 0 10px;
+    }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/stackoverflowvis">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="worldmap">World Map</a>
+            </li>
+            <li class="nav-item dropdown  active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="table-titles">Title topics</a>
+                  <a class="dropdown-item" href="table-features">Features table</a>
+                  <a class="dropdown-item active" href="tag-cloud">Tag Cloud</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<!-- Page Content -->
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-8">
+            <p class="">
+              Wordcloud that represent top 100 tags in last year from  Stack Overflow posts that have score more than five
+            </p>
+         <div id="my_favorite_latin_words"></div>
+        </div>
+        <div class="col-md-4">
+          <p>counts: <input type="number" id="count" value="20"></p>
+            <table class="table table-light" id="cloudTable">
+                <tr><th>Tag</th><th>Count</th></tr>
+              </table>
+        </div>
+    </div>
+</div>
+<div>
+  
+</div>
+</body>
+
+<!-- /.container -->
+<script src={% static "js/jquery-3.2.1.min.js" %}></script>
+<script src={% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}></script>
+<script src={% static "vendor/cloud/jqcloud.js" %}></script>
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+      var word_list = [
+  {
+    "text": "python",
+    "weight": 2674
+  },
+  {
+    "text": "javascript",
+    "weight": 2380
+  },
+  {
+    "text": "c++",
+    "weight": 2163
+  },
+  {
+    "text": "java",
+    "weight": 1915
+  },
+  {
+    "text": "android",
+    "weight": 1642
+  },
+  {
+    "text": "c#",
+    "weight": 1211
+  },
+  {
+    "text": "reactjs",
+    "weight": 913
+  },
+  {
+    "text": "ios",
+    "weight": 841
+  },
+  {
+    "text": "swift",
+    "weight": 727
+  },
+  {
+    "text": "html",
+    "weight": 670
+  },
+  {
+    "text": "angular",
+    "weight": 654
+  },
+  {
+    "text": "r",
+    "weight": 650
+  },
+  {
+    "text": "python-3.x",
+    "weight": 636
+  },
+  {
+    "text": "css",
+    "weight": 579
+  },
+  {
+    "text": "c",
+    "weight": 546
+  },
+  {
+    "text": "flutter",
+    "weight": 538
+  },
+  {
+    "text": "node.js",
+    "weight": 515
+  },
+  {
+    "text": "pandas",
+    "weight": 483
+  },
+  {
+    "text": "typescript",
+    "weight": 479
+  },
+  {
+    "text": "react-native",
+    "weight": 425
+  },
+  {
+    "text": "php",
+    "weight": 419
+  },
+  {
+    "text": "swiftui",
+    "weight": 388
+  },
+  {
+    "text": "haskell",
+    "weight": 386
+  },
+  {
+    "text": "language-lawyer",
+    "weight": 364
+  },
+  {
+    "text": "arrays",
+    "weight": 334
+  },
+  {
+    "text": "kotlin",
+    "weight": 329
+  },
+  {
+    "text": "docker",
+    "weight": 325
+  },
+  {
+    "text": "c++17",
+    "weight": 321
+  },
+  {
+    "text": "raku",
+    "weight": 315
+  },
+  {
+    "text": "xcode",
+    "weight": 297
+  },
+  {
+    "text": "java-8",
+    "weight": 291
+  },
+  {
+    "text": "asp.net-core",
+    "weight": 276
+  },
+  {
+    "text": "dart",
+    "weight": 275
+  },
+  {
+    "text": "tensorflow",
+    "weight": 273
+  },
+  {
+    "text": "scala",
+    "weight": 270
+  },
+  {
+    "text": "c++11",
+    "weight": 256
+  },
+  {
+    "text": "android-studio",
+    "weight": 247
+  },
+  {
+    "text": "firebase",
+    "weight": 246
+  },
+  {
+    "text": "algorithm",
+    "weight": 242
+  },
+  {
+    "text": "spring-boot",
+    "weight": 241
+  },
+  {
+    "text": "vue.js",
+    "weight": 241
+  },
+  {
+    "text": ".net",
+    "weight": 234
+  },
+  {
+    "text": "numpy",
+    "weight": 233
+  },
+  {
+    "text": "ios13",
+    "weight": 233
+  },
+  {
+    "text": "performance",
+    "weight": 230
+  },
+  {
+    "text": "jquery",
+    "weight": 229
+  },
+  {
+    "text": "sql-server",
+    "weight": 214
+  },
+  {
+    "text": ".net-core",
+    "weight": 213
+  },
+  {
+    "text": "java-stream",
+    "weight": 211
+  },
+  {
+    "text": "amazon-web-services",
+    "weight": 209
+  },
+  {
+    "text": "templates",
+    "weight": 200
+  },
+  {
+    "text": "sql",
+    "weight": 198
+  },
+  {
+    "text": "regex",
+    "weight": 194
+  },
+  {
+    "text": "rust",
+    "weight": 190
+  },
+  {
+    "text": "string",
+    "weight": 189
+  },
+  {
+    "text": "kubernetes",
+    "weight": 187
+  },
+  {
+    "text": "gradle",
+    "weight": 182
+  },
+  {
+    "text": "laravel",
+    "weight": 182
+  },
+  {
+    "text": "google-chrome",
+    "weight": 181
+  },
+  {
+    "text": "react-hooks",
+    "weight": 180
+  },
+  {
+    "text": "list",
+    "weight": 176
+  },
+  {
+    "text": "macos",
+    "weight": 174
+  },
+  {
+    "text": "webpack",
+    "weight": 170
+  },
+  {
+    "text": "dataframe",
+    "weight": 170
+  },
+  {
+    "text": "django",
+    "weight": 165
+  },
+  {
+    "text": "git",
+    "weight": 157
+  },
+  {
+    "text": "spring",
+    "weight": 156
+  },
+  {
+    "text": "gcc",
+    "weight": 155
+  },
+  {
+    "text": "keras",
+    "weight": 154
+  },
+  {
+    "text": "visual-studio-code",
+    "weight": 154
+  },
+  {
+    "text": "linux",
+    "weight": 153
+  },
+  {
+    "text": "multithreading",
+    "weight": 148
+  },
+  {
+    "text": "json",
+    "weight": 145
+  },
+  {
+    "text": "lambda",
+    "weight": 144
+  },
+  {
+    "text": "azure",
+    "weight": 142
+  },
+  {
+    "text": "npm",
+    "weight": 140
+  },
+  {
+    "text": "generics",
+    "weight": 139
+  },
+  {
+    "text": "xcode11",
+    "weight": 137
+  },
+  {
+    "text": "mysql",
+    "weight": 134
+  },
+  {
+    "text": "visual-studio",
+    "weight": 132
+  },
+  {
+    "text": "c++20",
+    "weight": 125
+  },
+  {
+    "text": "functional-programming",
+    "weight": 119
+  },
+  {
+    "text": "ruby-on-rails",
+    "weight": 118
+  },
+  {
+    "text": "postgresql",
+    "weight": 115
+  },
+  {
+    "text": "windows",
+    "weight": 111
+  },
+  {
+    "text": "ecmascript-6",
+    "weight": 108
+  },
+  {
+    "text": "ruby",
+    "weight": 107
+  },
+  {
+    "text": "go",
+    "weight": 105
+  },
+  {
+    "text": "unit-testing",
+    "weight": 103
+  },
+  {
+    "text": "optimization",
+    "weight": 103
+  },
+  {
+    "text": "machine-learning",
+    "weight": 102
+  },
+  {
+    "text": "jestjs",
+    "weight": 101
+  },
+  {
+    "text": "mongodb",
+    "weight": 100
+  },
+  {
+    "text": "apache-spark",
+    "weight": 99
+  },
+  {
+    "text": "android-gradle-plugin",
+    "weight": 98
+  },
+  {
+    "text": "c++14",
+    "weight": 98
+  },
+  {
+    "text": "assembly",
+    "weight": 94
+  },
+  {
+    "text": "opencv",
+    "weight": 93
+  },
+  {
+    "text": "x86",
+    "weight": 92
+  }
+];
+
+      $(function() {
+        $("#my_favorite_latin_words").jQCloud(word_list);
+      });
+
+
+      var $table = $('#cloudTable');
+      $table.empty();
+      $table.append('<tr><th>Tag</th><th>Count</th></tr>');
+      var i=0;
+      var end = $('#count').val();
+
+      $.each(word_list, function(i,v){
+            $table.append('<tr><td>'+v.text+'</td><td>'+v.weight+'</td></tr>');  
+            i++;
+            if(i == end) return false;
+        });
+
+        $('#count').on('change', function(e){
+          e.preventDefault();
+          var $table = $('#cloudTable');
+          $table.empty();
+          $table.append('<tr><th>Tag</th><th>Count</th></tr>');
+
+          var i=0;
+          var end = $('#count').val();
+
+          $.each(word_list, function(i,v){
+                $table.append('<tr><td>'+v.text+'</td><td>'+v.weight+'</td></tr>');  
+                i++;
+                if(i == end) return false;
+            });
+
+        });
+    </script>
+</body>
+</html>

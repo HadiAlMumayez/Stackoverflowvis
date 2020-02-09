@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titles table</title>
+    {% load static %}
+
+    <link href="{% static "/vendor/Bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{% static "/css/style.css" %}" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/stackoverflowvis">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="worldmap">World Map</a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item active" href="table-titles">Title topics</a>
+                  <a class="dropdown-item" href="table-features">Features table</a>
+                  <a class="dropdown-item" href="tag-cloud">Tag Cloud</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+    <p class="mt-4">
+        Main 20 title topics from  Stack Overflow posts that have score more than five
+
+    </p>
+    <table class="table table-dark mt-4">
+  <thead class="dl-table-head">
+    <tr>
+      <th scope="col" width="120">Topic id</th>
+      <th scope="col">Topic Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Topic: 1</th>
+      <td>make possible memory character output model display program stop start</td>
+    </tr>
+    <tr>
+      <th scope="row">Topic: 2</th>
+      <td>variable parameter default set allow detect request point firebase handle</td>
+    </tr>
+    <tr>
+      <th scope="row">Topic: 3</th>
+      <td>version map google store django share plot unexpected specify slow</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 4</th>
+      <td>warn api remove show server laravel sql html tensorflow command</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 5</th>
+      <td>std class thread dynamic static order block understand hide rule</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 6</th>
+      <td>swiftui view page attribute chrome disable field render contain browser</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 7</th>
+      <td>create flutter use custom text add get android prevent member</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 8</th>
+      <td>13 type typescript studio row pandas select container generic overload</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 9</th>
+      <td>c# two key way support different one deprecate amp compare</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 10</th>
+      <td>ios test xcode angular issue application app connect null undefined</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 11</th>
+      <td>difference group input package table check require need property columns</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 12</th>
+      <td>java stream give 11 generate size lambda aws within function</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 13</th>
+      <td>python string convert multiple write object base filter code single</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 14</th>
+      <td>method call function javascript c++ library swift pass instance crash</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 15</th>
+      <td>vs work time result number color send background change message</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 16</th>
+      <td>inside reference loop operator access match const copy try first</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 17</th>
+      <td>data mean service spring kotlin windows problem break performance bind</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 18</th>
+      <td>array list implement template haskell element elements pointer index nest</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 19</th>
+      <td>image core define .net docker exist aspnet js compile form</td>
+    </tr>
+     <tr>
+      <th scope="row">Topic: 20</th>
+      <td>file react fail error module find build cannot load native</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+<!-- /.container -->
+<script src={% static "js/jquery-3.2.1.min.js" %}></script>
+<script src={% static "vendor/bootstrap/js/bootstrap.min.js" %}></script>
+
+</body>
+</html>

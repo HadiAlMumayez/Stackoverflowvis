@@ -1,0 +1,1176 @@
+{
+  "nodes": [
+    {
+      "id": "javascript",
+      "group": "18"
+    },
+    {
+      "id": "jquery",
+      "group": "18"
+    },
+    {
+      "id": "html",
+      "group": "18"
+    },
+    {
+      "id": "reactjs",
+      "group": "18"
+    },
+    {
+      "id": "arrays",
+      "group": "18"
+    },
+    {
+      "id": "node.js",
+      "group": "18"
+    },
+    {
+      "id": "python",
+      "group": "10"
+    },
+    {
+      "id": "django",
+      "group": "10"
+    },
+    {
+      "id": "list",
+      "group": "10"
+    },
+    {
+      "id": "regex",
+      "group": "10"
+    },
+    {
+      "id": "numpy",
+      "group": "10"
+    },
+    {
+      "id": "arrays",
+      "group": "10"
+    },
+    {
+      "id": "string",
+      "group": "10"
+    },
+    {
+      "id": "java",
+      "group": "2"
+    },
+    {
+      "id": "android",
+      "group": "2"
+    },
+    {
+      "id": "spring",
+      "group": "2"
+    },
+    {
+      "id": "arrays",
+      "group": "2"
+    },
+    {
+      "id": "spring-boot",
+      "group": "2"
+    },
+    {
+      "id": "json",
+      "group": "2"
+    },
+    {
+      "id": "selenium",
+      "group": "2"
+    },
+    {
+      "id": "string",
+      "group": "2"
+    },
+    {
+      "id": "c#",
+      "group": "4"
+    },
+    {
+      "id": ".net",
+      "group": "4"
+    },
+    {
+      "id": "asp.net",
+      "group": "4"
+    },
+    {
+      "id": "wpf",
+      "group": "4"
+    },
+    {
+      "id": "unity3d",
+      "group": "4"
+    },
+    {
+      "id": "linq",
+      "group": "4"
+    },
+    {
+      "id": "asp.net-core",
+      "group": "4"
+    },
+    {
+      "id": "asp.net-mvc",
+      "group": "4"
+    },
+    {
+      "id": "winforms",
+      "group": "4"
+    },
+    {
+      "id": "json",
+      "group": "4"
+    },
+    {
+      "id": "sql",
+      "group": "4"
+    },
+    {
+      "id": "entity-framework",
+      "group": "4"
+    },
+    {
+      "id": "php",
+      "group": "6"
+    },
+    {
+      "id": "laravel",
+      "group": "6"
+    },
+    {
+      "id": "mysql",
+      "group": "6"
+    },
+    {
+      "id": "arrays",
+      "group": "6"
+    },
+    {
+      "id": "html",
+      "group": "6"
+    },
+    {
+      "id": "wordpress",
+      "group": "6"
+    },
+    {
+      "id": "jquery",
+      "group": "6"
+    },
+    {
+      "id": "codeigniter",
+      "group": "6"
+    },
+    {
+      "id": "regex",
+      "group": "6"
+    },
+    {
+      "id": "sql",
+      "group": "6"
+    },
+    {
+      "id": "symfony",
+      "group": "6"
+    },
+    {
+      "id": "android",
+      "group": "3"
+    },
+    {
+      "id": "android-studio",
+      "group": "3"
+    },
+    {
+      "id": "kotlin",
+      "group": "3"
+    },
+    {
+      "id": "firebase",
+      "group": "3"
+    },
+    {
+      "id": "android-layout",
+      "group": "3"
+    },
+    {
+      "id": "android-recyclerview",
+      "group": "3"
+    },
+    {
+      "id": "android-fragments",
+      "group": "3"
+    },
+    {
+      "id": "xml",
+      "group": "3"
+    },
+    {
+      "id": "c++",
+      "group": "11"
+    },
+    {
+      "id": "c++11",
+      "group": "11"
+    },
+    {
+      "id": "arrays",
+      "group": "11"
+    },
+    {
+      "id": "templates",
+      "group": "11"
+    },
+    {
+      "id": "c",
+      "group": "11"
+    },
+    {
+      "id": "qt",
+      "group": "11"
+    },
+    {
+      "id": "string",
+      "group": "11"
+    },
+    {
+      "id": "pointers",
+      "group": "11"
+    },
+    {
+      "id": "class",
+      "group": "11"
+    },
+    {
+      "id": "multithreading",
+      "group": "11"
+    },
+    {
+      "id": "algorithm",
+      "group": "11"
+    },
+    {
+      "id": "vector",
+      "group": "11"
+    },
+    {
+      "id": "r",
+      "group": "0"
+    },
+    {
+      "id": "dplyr",
+      "group": "0"
+    },
+    {
+      "id": "dataframe",
+      "group": "0"
+    },
+    {
+      "id": "ggplot2",
+      "group": "0"
+    },
+    {
+      "id": "regex",
+      "group": "0"
+    },
+    {
+      "id": "data.table",
+      "group": "0"
+    },
+    {
+      "id": "list",
+      "group": "0"
+    },
+    {
+      "id": "loops",
+      "group": "0"
+    },
+    {
+      "id": "shiny",
+      "group": "0"
+    },
+    {
+      "id": "function",
+      "group": "0"
+    },
+    {
+      "id": "for-loop",
+      "group": "0"
+    },
+    {
+      "id": "ios",
+      "group": "16"
+    },
+    {
+      "id": "objective-c",
+      "group": "16"
+    },
+    {
+      "id": "xcode",
+      "group": "16"
+    },
+    {
+      "id": "iphone",
+      "group": "16"
+    },
+    {
+      "id": "json",
+      "group": "16"
+    },
+    {
+      "id": "angular",
+      "group": "8"
+    },
+    {
+      "id": "typescript",
+      "group": "8"
+    },
+    {
+      "id": "rxjs",
+      "group": "8"
+    },
+    {
+      "id": "angular-material",
+      "group": "8"
+    },
+    {
+      "id": "ionic-framework",
+      "group": "8"
+    },
+    {
+      "id": "angular6",
+      "group": "8"
+    },
+    {
+      "id": "angular5",
+      "group": "8"
+    },
+    {
+      "id": "c",
+      "group": "9"
+    },
+    {
+      "id": "arrays",
+      "group": "9"
+    },
+    {
+      "id": "pointers",
+      "group": "9"
+    },
+    {
+      "id": "linux",
+      "group": "9"
+    },
+    {
+      "id": "string",
+      "group": "9"
+    },
+    {
+      "id": "function",
+      "group": "9"
+    },
+    {
+      "id": "gcc",
+      "group": "9"
+    },
+    {
+      "id": "struct",
+      "group": "9"
+    },
+    {
+      "id": "excel",
+      "group": "14"
+    },
+    {
+      "id": "excel-formula",
+      "group": "14"
+    },
+    {
+      "id": "excel-vba",
+      "group": "14"
+    },
+    {
+      "id": "node.js",
+      "group": "15"
+    },
+    {
+      "id": "mongodb",
+      "group": "15"
+    },
+    {
+      "id": "express",
+      "group": "15"
+    },
+    {
+      "id": "reactjs",
+      "group": "15"
+    },
+    {
+      "id": "angular",
+      "group": "15"
+    },
+    {
+      "id": "npm",
+      "group": "15"
+    },
+    {
+      "id": "amazon-web-services",
+      "group": "15"
+    },
+    {
+      "id": "typescript",
+      "group": "15"
+    },
+    {
+      "id": "firebase",
+      "group": "15"
+    },
+    {
+      "id": "reactjs",
+      "group": "7"
+    },
+    {
+      "id": "react-native",
+      "group": "7"
+    },
+    {
+      "id": "redux",
+      "group": "7"
+    },
+    {
+      "id": "typescript",
+      "group": "7"
+    },
+    {
+      "id": "react-router",
+      "group": "7"
+    },
+    {
+      "id": "react-hooks",
+      "group": "7"
+    },
+    {
+      "id": "material-ui",
+      "group": "7"
+    },
+    {
+      "id": "react-redux",
+      "group": "7"
+    },
+    {
+      "id": "webpack",
+      "group": "7"
+    },
+    {
+      "id": "css",
+      "group": "5"
+    },
+    {
+      "id": "css3",
+      "group": "5"
+    },
+    {
+      "id": "angular",
+      "group": "5"
+    },
+    {
+      "id": "reactjs",
+      "group": "5"
+    },
+    {
+      "id": "twitter-bootstrap",
+      "group": "5"
+    },
+    {
+      "id": "wordpress",
+      "group": "5"
+    },
+    {
+      "id": "html5",
+      "group": "5"
+    },
+    {
+      "id": "bootstrap-4",
+      "group": "5"
+    },
+    {
+      "id": "sass",
+      "group": "5"
+    },
+    {
+      "id": "flexbox",
+      "group": "5"
+    }
+  ],
+  "links": [
+    {
+      "source": "javascript",
+      "target": "jquery",
+      "value": 19244,
+      "group": "18"
+    },
+    {
+      "source": "javascript",
+      "target": "html",
+      "value": 15598,
+      "group": "18"
+    },
+    {
+      "source": "javascript",
+      "target": "reactjs",
+      "value": 12450,
+      "group": "18"
+    },
+    {
+      "source": "javascript",
+      "target": "arrays",
+      "value": 9273,
+      "group": "18"
+    },
+    {
+      "source": "javascript",
+      "target": "node.js",
+      "value": 7739,
+      "group": "18"
+    },
+    {
+      "source": "python",
+      "target": "django",
+      "value": 4867,
+      "group": "10"
+    },
+    {
+      "source": "python",
+      "target": "list",
+      "value": 4339,
+      "group": "10"
+    },
+    {
+      "source": "python",
+      "target": "regex",
+      "value": 3454,
+      "group": "10"
+    },
+    {
+      "source": "python",
+      "target": "numpy",
+      "value": 3161,
+      "group": "10"
+    },
+    {
+      "source": "python",
+      "target": "arrays",
+      "value": 2717,
+      "group": "10"
+    },
+    {
+      "source": "python",
+      "target": "string",
+      "value": 2356,
+      "group": "10"
+    },
+    {
+      "source": "java",
+      "target": "android",
+      "value": 12530,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "spring",
+      "value": 5032,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "arrays",
+      "value": 3148,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "spring-boot",
+      "value": 1575,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "json",
+      "value": 1427,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "selenium",
+      "value": 1400,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "string",
+      "value": 1337,
+      "group": "2"
+    },
+    {
+      "source": "c#",
+      "target": ".net",
+      "value": 4537,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "asp.net",
+      "value": 2935,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "wpf",
+      "value": 2258,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "unity3d",
+      "value": 1926,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "linq",
+      "value": 1696,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "asp.net-core",
+      "value": 1511,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "asp.net-mvc",
+      "value": 1433,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "winforms",
+      "value": 1367,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "json",
+      "value": 1131,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "sql",
+      "value": 1115,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "entity-framework",
+      "value": 945,
+      "group": "4"
+    },
+    {
+      "source": "php",
+      "target": "laravel",
+      "value": 7093,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "mysql",
+      "value": 6076,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "arrays",
+      "value": 3582,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "html",
+      "value": 3223,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "wordpress",
+      "value": 2081,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "jquery",
+      "value": 1270,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "codeigniter",
+      "value": 1060,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "regex",
+      "value": 1037,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "sql",
+      "value": 903,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "symfony",
+      "value": 842,
+      "group": "6"
+    },
+    {
+      "source": "android",
+      "target": "android-studio",
+      "value": 2190,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "kotlin",
+      "value": 2160,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "firebase",
+      "value": 1942,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "android-layout",
+      "value": 1742,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "android-recyclerview",
+      "value": 1152,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "android-fragments",
+      "value": 966,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "xml",
+      "value": 694,
+      "group": "3"
+    },
+    {
+      "source": "c++",
+      "target": "c++11",
+      "value": 2140,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "arrays",
+      "value": 1323,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "templates",
+      "value": 1214,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "c",
+      "value": 868,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "qt",
+      "value": 787,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "string",
+      "value": 645,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "pointers",
+      "value": 628,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "class",
+      "value": 596,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "multithreading",
+      "value": 561,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "algorithm",
+      "value": 503,
+      "group": "11"
+    },
+    {
+      "source": "c++",
+      "target": "vector",
+      "value": 488,
+      "group": "11"
+    },
+    {
+      "source": "r",
+      "target": "dplyr",
+      "value": 2432,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "dataframe",
+      "value": 2239,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "ggplot2",
+      "value": 1782,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "regex",
+      "value": 889,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "data.table",
+      "value": 674,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "list",
+      "value": 626,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "loops",
+      "value": 535,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "shiny",
+      "value": 510,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "function",
+      "value": 474,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "for-loop",
+      "value": 444,
+      "group": "0"
+    },
+    {
+      "source": "ios",
+      "target": "objective-c",
+      "value": 1288,
+      "group": "16"
+    },
+    {
+      "source": "ios",
+      "target": "xcode",
+      "value": 780,
+      "group": "16"
+    },
+    {
+      "source": "ios",
+      "target": "iphone",
+      "value": 497,
+      "group": "16"
+    },
+    {
+      "source": "ios",
+      "target": "json",
+      "value": 377,
+      "group": "16"
+    },
+    {
+      "source": "angular",
+      "target": "typescript",
+      "value": 4548,
+      "group": "8"
+    },
+    {
+      "source": "angular",
+      "target": "rxjs",
+      "value": 849,
+      "group": "8"
+    },
+    {
+      "source": "angular",
+      "target": "angular-material",
+      "value": 811,
+      "group": "8"
+    },
+    {
+      "source": "angular",
+      "target": "ionic-framework",
+      "value": 553,
+      "group": "8"
+    },
+    {
+      "source": "angular",
+      "target": "angular6",
+      "value": 498,
+      "group": "8"
+    },
+    {
+      "source": "angular",
+      "target": "angular5",
+      "value": 465,
+      "group": "8"
+    },
+    {
+      "source": "c",
+      "target": "arrays",
+      "value": 1664,
+      "group": "9"
+    },
+    {
+      "source": "c",
+      "target": "pointers",
+      "value": 999,
+      "group": "9"
+    },
+    {
+      "source": "c",
+      "target": "linux",
+      "value": 622,
+      "group": "9"
+    },
+    {
+      "source": "c",
+      "target": "string",
+      "value": 569,
+      "group": "9"
+    },
+    {
+      "source": "c",
+      "target": "function",
+      "value": 345,
+      "group": "9"
+    },
+    {
+      "source": "c",
+      "target": "gcc",
+      "value": 343,
+      "group": "9"
+    },
+    {
+      "source": "c",
+      "target": "struct",
+      "value": 308,
+      "group": "9"
+    },
+    {
+      "source": "excel",
+      "target": "excel-formula",
+      "value": 1187,
+      "group": "14"
+    },
+    {
+      "source": "excel",
+      "target": "excel-vba",
+      "value": 349,
+      "group": "14"
+    },
+    {
+      "source": "node.js",
+      "target": "mongodb",
+      "value": 1213,
+      "group": "15"
+    },
+    {
+      "source": "node.js",
+      "target": "express",
+      "value": 1178,
+      "group": "15"
+    },
+    {
+      "source": "node.js",
+      "target": "reactjs",
+      "value": 672,
+      "group": "15"
+    },
+    {
+      "source": "node.js",
+      "target": "angular",
+      "value": 571,
+      "group": "15"
+    },
+    {
+      "source": "node.js",
+      "target": "npm",
+      "value": 405,
+      "group": "15"
+    },
+    {
+      "source": "node.js",
+      "target": "amazon-web-services",
+      "value": 263,
+      "group": "15"
+    },
+    {
+      "source": "node.js",
+      "target": "typescript",
+      "value": 243,
+      "group": "15"
+    },
+    {
+      "source": "node.js",
+      "target": "firebase",
+      "value": 234,
+      "group": "15"
+    },
+    {
+      "source": "reactjs",
+      "target": "react-native",
+      "value": 1248,
+      "group": "7"
+    },
+    {
+      "source": "reactjs",
+      "target": "redux",
+      "value": 972,
+      "group": "7"
+    },
+    {
+      "source": "reactjs",
+      "target": "typescript",
+      "value": 675,
+      "group": "7"
+    },
+    {
+      "source": "reactjs",
+      "target": "react-router",
+      "value": 522,
+      "group": "7"
+    },
+    {
+      "source": "reactjs",
+      "target": "react-hooks",
+      "value": 371,
+      "group": "7"
+    },
+    {
+      "source": "reactjs",
+      "target": "material-ui",
+      "value": 310,
+      "group": "7"
+    },
+    {
+      "source": "reactjs",
+      "target": "react-redux",
+      "value": 305,
+      "group": "7"
+    },
+    {
+      "source": "reactjs",
+      "target": "webpack",
+      "value": 221,
+      "group": "7"
+    },
+    {
+      "source": "css",
+      "target": "css3",
+      "value": 714,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "angular",
+      "value": 600,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "reactjs",
+      "value": 535,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "twitter-bootstrap",
+      "value": 401,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "wordpress",
+      "value": 314,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "html5",
+      "value": 266,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "bootstrap-4",
+      "value": 266,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "sass",
+      "value": 259,
+      "group": "5"
+    },
+    {
+      "source": "css",
+      "target": "flexbox",
+      "value": 223,
+      "group": "5"
+    }
+  ]
+}

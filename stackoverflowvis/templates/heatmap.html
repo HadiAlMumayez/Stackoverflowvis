@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    {% load static %}
+    
+    <link href="{% static "/vendor/Bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{% static "/css/style.css" %}" rel="stylesheet">
+
+<style>
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+    }
+    .heatmap{
+        top:20px;
+        position: relative;
+    }
+
+    #legend{
+        display: inline-block;
+    }
+
+    #legend ul li{
+        display: inline-block;
+        height: 20px;
+        width: 100px;
+        margin: 0;
+        vertical-align: top;
+    }
+    
+</style>
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/stackoverflowvis">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="worldmap">World Map</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="table-titles">Title topics</a>
+                  <a class="dropdown-item" href="table-features">Features table</a>
+                  <a class="dropdown-item" href="tag-cloud">Tag Cloud</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <h2 class="mt-4">Enter a width value</h2>
+    <span class="font-italic">change width value to update heatmap width</span>
+    <div class="">
+        <input class="mt-3" id="widthInput" type="number" value="2000" step="100">
+        <button class="btn btn-info refresh-data btn-sm">Refresh Heatmap</button>
+        <div id="legend">
+                <ul>
+                    <li id="min" class="text-right">0</li>
+                    <li style="background-color: #781426;"></li>
+                    <li style="background-color: #C76475;"></li>
+                    <li style="background-color: #EF9FAE;"></li>
+                    <li style="background-color: #ABDB92;"></li>
+                    <li style="background-color: #77B75B;"></li>
+                    <li style="background-color: #2E6E12;"></li>
+                    <li id="max" class="text-left">0</li>
+                </ul>
+            </div>
+    </div>
+    
+    <div class="heatmap"></div>
+</div>
+
+<script src={% static "js/jquery-3.2.1.min.js" %}></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src={% static "vendor/bootstrap/js/bootstrap.min.js" %}></script>
+
+<script>
+
+    // Standard deviation
+    function RMS(arr) {
+        return Math.pow(arr.reduce(function (acc, pres) {
+            return acc + Math.pow(pres, 2);
+        }) / arr.length, .5)
+    }
+
+    // mean
+    function mean(arr) {
+        return arr.reduce(function (acc, prev) {
+            return acc + prev;
+        }) / arr.length;
+    }
+
+    function bandClassifier(val, multiplier) {
+        if (val >= 0) {
+            return (Math.floor((val * multiplier) / (.33 * multiplier)) + 1) > 3 ? 3 : Math.floor((val * multiplier) / (.33 * multiplier)) + 1
+        } else {
+            return (Math.floor((val * multiplier) / (.33 * multiplier))) < -3 ? -3 : Math.floor((val * multiplier) / (.33 * multiplier))
+        }
+    }
+
+    jQuery('.refresh-data').on('click', function (e) {
+        var newWidth = $('#widthInput').val();
+        drawHeatmap(newWidth);
+    });
+
+    window.onload = function () {
+        drawHeatmap(2000);
+    };
+
+    var min = 100;
+    var max = 0;
+
+
+    function drawHeatmap(widthValue) {
+
+        $('.heatmap').empty();
+
+        console.log('redrawing');
+        var lPatchWidth = 200;
+        var itemSize = 22,
+            cellSize = itemSize - 3,
+            margin = {top: 0, right: 0, bottom: 0, left: 60};
+
+        var data;
+
+        var width = widthValue - margin.right - margin.left,
+            height = 900 - margin.top - margin.bottom;
+        var colorScale;
+
+        colorHold = ["#781426", "#C76475", "#EF9FAE", "#ABDB92", "#77B75B", "#2E6E12"]
+        
+
+        
+        d3.csv('/static/data/heatmap.csv', function (response) {
+
+            data = response.map(function (item) {
+
+                var newItem = {};
+                newItem.country = item.x;
+                newItem.product = item.y;
+                newItem.value = +item.value;
+
+                if(max < newItem.value) {
+                    max = newItem.value;
+                }
+
+                if(min > item.value) {
+                    min = newItem.value;
+                }
+
+                return newItem;
+            })
+
+
+            invertcolors = 0;
+            // Inverting color scale
+            if (invertcolors) {
+                colorHold.reverse();
+
+
+            }
+
+            var x_elements = d3.set(data.map(function (item) {
+                    return item.product;
+                })).values(),
+                y_elements = d3.set(data.map(function (item) {
+                    return item.country;
+                })).values();
+
+            var xScale = d3.scaleBand()
+                .domain(x_elements)
+                .range([0, x_elements.length * itemSize])
+                .paddingInner(20).paddingOuter(cellSize / 2)
+
+            var xAxis = d3.axisBottom()
+                .scale(xScale)
+                .tickSizeOuter(0)
+                .tickFormat(function (d) {
+                    return d;
+                });
+
+            var yScale = d3.scaleBand()
+                .domain(y_elements)
+                .range([0, y_elements.length * itemSize])
+                .paddingInner(.2).paddingOuter(.2);
+
+            var yAxis = d3.axisLeft()
+                .scale(yScale)
+                .tickFormat(function (d) {
+                    return d;
+                });
+
+
+            // Finding the mean of the data
+            var mean = window.mean(data.map(function (d) {
+                return +d.value
+            }));
+
+            //setting percentage change for value w.r.t average
+            data.forEach(function (d) {
+                d.perChange = (d.value - mean) / mean
+            })
+
+            colorScale = d3.scaleOrdinal()
+                .domain([-3, -2, -1, 1, 2, 3])
+                .range(colorHold);
+
+                
+            var rootsvg = d3.select('.heatmap')
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+            var svg = rootsvg.append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            // tooltip
+            tooltip = d3.select("body").append("div").style("width", "auto").style("height", "auto").style("background", "#C3B3E5")
+                .style("opacity", "1").style("position", "absolute").style("visibility", "hidden").style("box-shadow", "0px 0px 6px #7861A5").style("padding", "10px");
+            toolval = tooltip.append("div");
+
+
+            var cells = svg.selectAll('rect')
+                .data(data)
+                .enter().append('g').append('rect')
+                .attr('class', 'cell')
+                .attr('width', cellSize)
+                .attr('height', cellSize)
+                .attr('y', function (d) {
+                    return yScale(d.country);
+                })
+                .attr('x', function (d) {
+                    return xScale(d.product) - cellSize / 2;
+                })
+                .attr('fill', function (d) {
+                    return colorScale(window.bandClassifier(d.perChange, 100));
+                })
+                .attr("rx", 3)
+                .attr("ry", 3)
+                .on("mouseover", function (d) {
+                    
+                    d3.select(this).style("stroke", "orange").style("stroke-width", "3px")
+                    d3.select(".trianglepointer").transition().delay(100).attr("transform", "translate(" + (-((lPatchWidth / colorScale.range().length) / 2 + (colorScale.domain().indexOf(bandClassifier(d.perChange, 100)) * (lPatchWidth / colorScale.range().length)))) + ",0)");
+
+
+                })
+                .on("mouseout", function () {
+                    d3.select(this).style("stroke", "none");
+                    tooltip.style("visibility", "hidden");
+                })
+                .on("mousemove", function (d) {
+                    tooltip.style("visibility", "visible")
+                        .style("top", (d3.event.pageY - 30) + "px").style("left", (d3.event.pageX + 20) + "px");
+
+                    console.log(d3.mouse(this)[0])
+                    tooltip.select("div").html("<strong>" + d.product + "</strong><br/> " + (+d.value).toFixed(2))
+
+                })
+
+
+            svg.append("g")
+                .attr("class", "y axis")
+                .call(yAxis)
+                .selectAll('text')
+                .attr('font-weight', 'normal');
+
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + (y_elements.length * itemSize + cellSize / 2) + ")")
+                .call(xAxis)
+                .selectAll('text')
+                .attr('font-weight', 'normal')
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", "-.5em")
+                .attr("transform", function (d) {
+                    return "rotate(-65)";
+                });
+
+            // Legends section
+
+
+            
+            // Heading
+            rootsvg.append("g")
+                .attr("transform", "translate(0,30)")
+                .append("text")
+                .attr("x", (width + margin.right + margin.left) / 2)
+                .attr('font-weight', 'bold')
+                .attr('font-size', '22px')
+                .attr('font-family', 'Segoe UI bold')
+                .style("text-anchor", "middle");
+
+            $('#min').html(min);
+            $('#max').html(max);
+
+        });
+    }
+</script>

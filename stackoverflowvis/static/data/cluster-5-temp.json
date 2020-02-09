@@ -1,0 +1,836 @@
+{
+  "nodes": [
+    {
+      "id": "javascript",
+      "group": "1"
+    },
+    {
+      "id": "jquery",
+      "group": "1"
+    },
+    {
+      "id": "html",
+      "group": "1"
+    },
+    {
+      "id": "reactjs",
+      "group": "1"
+    },
+    {
+      "id": "arrays",
+      "group": "1"
+    },
+    {
+      "id": "node.js",
+      "group": "1"
+    },
+    {
+      "id": "php",
+      "group": "1"
+    },
+    {
+      "id": "angular",
+      "group": "1"
+    },
+    {
+      "id": "vue.js",
+      "group": "1"
+    },
+    {
+      "id": "python",
+      "group": "5"
+    },
+    {
+      "id": "python-3.x",
+      "group": "5"
+    },
+    {
+      "id": "pandas",
+      "group": "5"
+    },
+    {
+      "id": "django",
+      "group": "5"
+    },
+    {
+      "id": "list",
+      "group": "5"
+    },
+    {
+      "id": "regex",
+      "group": "5"
+    },
+    {
+      "id": "numpy",
+      "group": "5"
+    },
+    {
+      "id": "arrays",
+      "group": "5"
+    },
+    {
+      "id": "string",
+      "group": "5"
+    },
+    {
+      "id": "java",
+      "group": "2"
+    },
+    {
+      "id": "android",
+      "group": "2"
+    },
+    {
+      "id": "spring",
+      "group": "2"
+    },
+    {
+      "id": "arrays",
+      "group": "2"
+    },
+    {
+      "id": "spring-boot",
+      "group": "2"
+    },
+    {
+      "id": "json",
+      "group": "2"
+    },
+    {
+      "id": "selenium",
+      "group": "2"
+    },
+    {
+      "id": "string",
+      "group": "2"
+    },
+    {
+      "id": "c#",
+      "group": "4"
+    },
+    {
+      "id": ".net",
+      "group": "4"
+    },
+    {
+      "id": "asp.net",
+      "group": "4"
+    },
+    {
+      "id": "wpf",
+      "group": "4"
+    },
+    {
+      "id": "unity3d",
+      "group": "4"
+    },
+    {
+      "id": "linq",
+      "group": "4"
+    },
+    {
+      "id": "asp.net-core",
+      "group": "4"
+    },
+    {
+      "id": "asp.net-mvc",
+      "group": "4"
+    },
+    {
+      "id": "winforms",
+      "group": "4"
+    },
+    {
+      "id": "json",
+      "group": "4"
+    },
+    {
+      "id": "sql",
+      "group": "4"
+    },
+    {
+      "id": "entity-framework",
+      "group": "4"
+    },
+    {
+      "id": "php",
+      "group": "6"
+    },
+    {
+      "id": "laravel",
+      "group": "6"
+    },
+    {
+      "id": "mysql",
+      "group": "6"
+    },
+    {
+      "id": "arrays",
+      "group": "6"
+    },
+    {
+      "id": "html",
+      "group": "6"
+    },
+    {
+      "id": "wordpress",
+      "group": "6"
+    },
+    {
+      "id": "jquery",
+      "group": "6"
+    },
+    {
+      "id": "codeigniter",
+      "group": "6"
+    },
+    {
+      "id": "regex",
+      "group": "6"
+    },
+    {
+      "id": "sql",
+      "group": "6"
+    },
+    {
+      "id": "symfony",
+      "group": "6"
+    },
+    {
+      "id": "android",
+      "group": "3"
+    },
+    {
+      "id": "android-studio",
+      "group": "3"
+    },
+    {
+      "id": "kotlin",
+      "group": "3"
+    },
+    {
+      "id": "firebase",
+      "group": "3"
+    },
+    {
+      "id": "android-layout",
+      "group": "3"
+    },
+    {
+      "id": "android-recyclerview",
+      "group": "3"
+    },
+    {
+      "id": "android-fragments",
+      "group": "3"
+    },
+    {
+      "id": "xml",
+      "group": "3"
+    },
+    {
+      "id": "sql",
+      "group": "9"
+    },
+    {
+      "id": "sql-server",
+      "group": "9"
+    },
+    {
+      "id": "oracle",
+      "group": "9"
+    },
+    {
+      "id": "postgresql",
+      "group": "9"
+    },
+    {
+      "id": "database",
+      "group": "9"
+    },
+    {
+      "id": "ms-access",
+      "group": "9"
+    },
+    {
+      "id": "c++",
+      "group": "8"
+    },
+    {
+      "id": "c++11",
+      "group": "8"
+    },
+    {
+      "id": "arrays",
+      "group": "8"
+    },
+    {
+      "id": "templates",
+      "group": "8"
+    },
+    {
+      "id": "c",
+      "group": "8"
+    },
+    {
+      "id": "qt",
+      "group": "8"
+    },
+    {
+      "id": "string",
+      "group": "8"
+    },
+    {
+      "id": "pointers",
+      "group": "8"
+    },
+    {
+      "id": "class",
+      "group": "8"
+    },
+    {
+      "id": "multithreading",
+      "group": "8"
+    },
+    {
+      "id": "algorithm",
+      "group": "8"
+    },
+    {
+      "id": "vector",
+      "group": "8"
+    },
+    {
+      "id": "html",
+      "group": "7"
+    },
+    {
+      "id": "css",
+      "group": "7"
+    },
+    {
+      "id": "angular",
+      "group": "7"
+    },
+    {
+      "id": "r",
+      "group": "0"
+    },
+    {
+      "id": "dplyr",
+      "group": "0"
+    },
+    {
+      "id": "dataframe",
+      "group": "0"
+    },
+    {
+      "id": "ggplot2",
+      "group": "0"
+    },
+    {
+      "id": "regex",
+      "group": "0"
+    },
+    {
+      "id": "data.table",
+      "group": "0"
+    },
+    {
+      "id": "list",
+      "group": "0"
+    },
+    {
+      "id": "loops",
+      "group": "0"
+    },
+    {
+      "id": "shiny",
+      "group": "0"
+    },
+    {
+      "id": "function",
+      "group": "0"
+    },
+    {
+      "id": "for-loop",
+      "group": "0"
+    }
+  ],
+  "links": [
+    {
+      "source": "javascript",
+      "target": "jquery",
+      "value": 19244,
+      "group": "1"
+    },
+    {
+      "source": "javascript",
+      "target": "html",
+      "value": 15598,
+      "group": "1"
+    },
+    {
+      "source": "javascript",
+      "target": "reactjs",
+      "value": 12450,
+      "group": "1"
+    },
+    {
+      "source": "javascript",
+      "target": "arrays",
+      "value": 9273,
+      "group": "1"
+    },
+    {
+      "source": "javascript",
+      "target": "node.js",
+      "value": 7739,
+      "group": "1"
+    },
+    {
+      "source": "javascript",
+      "target": "php",
+      "value": 4659,
+      "group": "1"
+    },
+    {
+      "source": "javascript",
+      "target": "angular",
+      "value": 4203,
+      "group": "1"
+    },
+    {
+      "source": "javascript",
+      "target": "vue.js",
+      "value": 2329,
+      "group": "1"
+    },
+    {
+      "source": "python",
+      "target": "python-3.x",
+      "value": 18681,
+      "group": "5"
+    },
+    {
+      "source": "python",
+      "target": "pandas",
+      "value": 16613,
+      "group": "5"
+    },
+    {
+      "source": "python",
+      "target": "django",
+      "value": 4867,
+      "group": "5"
+    },
+    {
+      "source": "python",
+      "target": "list",
+      "value": 4339,
+      "group": "5"
+    },
+    {
+      "source": "python",
+      "target": "regex",
+      "value": 3454,
+      "group": "5"
+    },
+    {
+      "source": "python",
+      "target": "numpy",
+      "value": 3161,
+      "group": "5"
+    },
+    {
+      "source": "python",
+      "target": "arrays",
+      "value": 2717,
+      "group": "5"
+    },
+    {
+      "source": "python",
+      "target": "string",
+      "value": 2356,
+      "group": "5"
+    },
+    {
+      "source": "java",
+      "target": "android",
+      "value": 12530,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "spring",
+      "value": 5032,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "arrays",
+      "value": 3148,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "spring-boot",
+      "value": 1575,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "json",
+      "value": 1427,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "selenium",
+      "value": 1400,
+      "group": "2"
+    },
+    {
+      "source": "java",
+      "target": "string",
+      "value": 1337,
+      "group": "2"
+    },
+    {
+      "source": "c#",
+      "target": ".net",
+      "value": 4537,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "asp.net",
+      "value": 2935,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "wpf",
+      "value": 2258,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "unity3d",
+      "value": 1926,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "linq",
+      "value": 1696,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "asp.net-core",
+      "value": 1511,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "asp.net-mvc",
+      "value": 1433,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "winforms",
+      "value": 1367,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "json",
+      "value": 1131,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "sql",
+      "value": 1115,
+      "group": "4"
+    },
+    {
+      "source": "c#",
+      "target": "entity-framework",
+      "value": 945,
+      "group": "4"
+    },
+    {
+      "source": "php",
+      "target": "laravel",
+      "value": 7093,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "mysql",
+      "value": 6076,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "arrays",
+      "value": 3582,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "html",
+      "value": 3223,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "wordpress",
+      "value": 2081,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "jquery",
+      "value": 1270,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "codeigniter",
+      "value": 1060,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "regex",
+      "value": 1037,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "sql",
+      "value": 903,
+      "group": "6"
+    },
+    {
+      "source": "php",
+      "target": "symfony",
+      "value": 842,
+      "group": "6"
+    },
+    {
+      "source": "android",
+      "target": "android-studio",
+      "value": 2190,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "kotlin",
+      "value": 2160,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "firebase",
+      "value": 1942,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "android-layout",
+      "value": 1742,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "android-recyclerview",
+      "value": 1152,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "android-fragments",
+      "value": 966,
+      "group": "3"
+    },
+    {
+      "source": "android",
+      "target": "xml",
+      "value": 694,
+      "group": "3"
+    },
+    {
+      "source": "sql",
+      "target": "sql-server",
+      "value": 11797,
+      "group": "9"
+    },
+    {
+      "source": "sql",
+      "target": "oracle",
+      "value": 5101,
+      "group": "9"
+    },
+    {
+      "source": "sql",
+      "target": "postgresql",
+      "value": 2659,
+      "group": "9"
+    },
+    {
+      "source": "sql",
+      "target": "database",
+      "value": 704,
+      "group": "9"
+    },
+    {
+      "source": "sql",
+      "target": "ms-access",
+      "value": 570,
+      "group": "9"
+    },
+    {
+      "source": "c++",
+      "target": "c++11",
+      "value": 2140,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "arrays",
+      "value": 1323,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "templates",
+      "value": 1214,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "c",
+      "value": 868,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "qt",
+      "value": 787,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "string",
+      "value": 645,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "pointers",
+      "value": 628,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "class",
+      "value": 596,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "multithreading",
+      "value": 561,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "algorithm",
+      "value": 503,
+      "group": "8"
+    },
+    {
+      "source": "c++",
+      "target": "vector",
+      "value": 488,
+      "group": "8"
+    },
+    {
+      "source": "html",
+      "target": "css",
+      "value": 17453,
+      "group": "7"
+    },
+    {
+      "source": "html",
+      "target": "angular",
+      "value": 957,
+      "group": "7"
+    },
+    {
+      "source": "r",
+      "target": "dplyr",
+      "value": 2432,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "dataframe",
+      "value": 2239,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "ggplot2",
+      "value": 1782,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "regex",
+      "value": 889,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "data.table",
+      "value": 674,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "list",
+      "value": 626,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "loops",
+      "value": 535,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "shiny",
+      "value": 510,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "function",
+      "value": 474,
+      "group": "0"
+    },
+    {
+      "source": "r",
+      "target": "for-loop",
+      "value": 444,
+      "group": "0"
+    }
+  ]
+}

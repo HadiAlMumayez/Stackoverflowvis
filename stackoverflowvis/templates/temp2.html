@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+{% load static %}
+
+<link href="{% static "/vendor/Bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+<link href="{% static "/css/style.css" %}" rel="stylesheet">
+
+<style>
+
+    
+
+    body {
+        font: 10px sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .x.axis path {
+        /*deleted;*/
+    }
+
+    .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+    }
+
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/stackoverflowvis">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="cluster">Cluster</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="worldmap">World Map</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="table-titles">Title topics</a>
+                  <a class="dropdown-item" href="table-features">Features table</a>
+                  <a class="dropdown-item" href="tag-cloud">Tag Cloud</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<div class="container">
+        <div class="row mt-5">
+                <div class="col-md-6">
+                        <h4 class="text-center mb-4">Posts</h4>
+                        <div id="my_dataviz1"></div>
+                        <h4 class="mt-3">Numbers of posts that published in Stack Overflow from 2008 to 2019</h4>
+                        
+                </div>
+                <div class="col-md-6">
+                        <h4 class="text-center mb-4">Users</h4>
+                        <div id="my_dataviz2"></div>
+                        <h4 class="mt-3">Number of Stack Overflow users from 2008 to 2019</h4>
+                </div>
+        </div>
+</div>
+
+{% load static %}
+<script src="{% static "/js/d3.v4.min.js" %} "></script>
+<script>
+
+    // set the dimensions and margins of the graph
+    var margin = {top: 10, right: 30, bottom: 30, left: 60},
+        width = 460 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
+
+    // append the svg object to the body of the page
+    var svg2 = d3.select("#my_dataviz1")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+    //Read the data
+    d3.csv("/static/data/post-count.csv",
+
+        // When reading the csv, I must format variables:
+        function(d){
+            return { date : d3.timeParse("%Y")(d.date), value : d.value }
+        },
+
+        // Now I can use this dataset:
+        function(data) {
+
+            // Add X axis --> it is a date format
+            var x = d3.scaleTime()
+                .domain(d3.extent(data, function(d) { return d.date; }))
+                .range([ 0, width ]);
+            svg2.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+
+            // Add Y axis
+            var y = d3.scaleLinear()
+                .domain([0, d3.max(data, function(d) { return +d.value; })])
+                .range([ height, 0 ]);
+            svg2.append("g")
+                .call(d3.axisLeft(y));
+
+            // Add the line
+            svg2.append("path")
+                .datum(data)
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 1.5)
+                .attr("d", d3.line()
+                    .x(function(d) { return x(d.date) })
+                    .y(function(d) { return y(d.value) })
+                )
+
+        })
+
+        var svg = d3.select("#my_dataviz2")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+        d3.csv("/static/data/user-count.csv",
+
+        // When reading the csv, I must format variables:
+        function(d){
+            return { date : d3.timeParse("%Y")(d.date), value : d.value }
+        },
+
+        // Now I can use this dataset:
+        function(data) {
+
+            // Add X axis --> it is a date format
+            var x = d3.scaleTime()
+                .domain(d3.extent(data, function(d) { return d.date; }))
+                .range([ 0, width ]);
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+
+            // Add Y axis
+            var y = d3.scaleLinear()
+                .domain([0, d3.max(data, function(d) { return +d.value; })])
+                .range([ height, 0 ]);
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            // Add the line
+            svg.append("path")
+                .datum(data)
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 1.5)
+                .attr("d", d3.line()
+                    .x(function(d) { return x(d.date) })
+                    .y(function(d) { return y(d.value) })
+                )
+
+        })
+</script>

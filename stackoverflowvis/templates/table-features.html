@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Features Table</title>
+    {% load static %}
+
+    <link href="{% static "/vendor/Bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{% static "/css/style.css" %}" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/stackoverflowvis">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="worldmap">World Map</a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="table-titles">Title topics</a>
+                  <a class="dropdown-item active" href="table-features">Features table</a>
+                  <a class="dropdown-item" href="tag-cloud">Tag Cloud</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+    <p class="mt-4">
+    Predicting Stack Overflow tags from body and title posts
+    </p>
+    <table class="table table-dark mt-4">
+  <thead class="dl-table-head">
+    <tr>
+      <th scope="col" width="120">Features</th>
+      <th scope="col">Highest coefficient values per class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">.Net</th>
+      <td> however child trace collection choose application tool bug actually .net</td>
+    </tr>
+    <tr>
+      <th scope="row">.net-core</th>
+      <td> var generic sdk program rule article .net core package dotnet</td>
+    </tr>
+    <tr>
+      <th scope="row">algorithm</th>
+      <td> believe minimum certain either problem algorithm total solution best algorithm</td>
+    </tr>
+    <tr>
+      <th scope="row">amazon-web-services</th>
+      <td>src bundle cluster change resources upload instance s3 aws aws</td>
+    </tr>
+    <tr>
+      <th scope="row">android</th>
+      <td> emulator intent fun devices apk fragment recyclerview activity android android</td>
+    </tr>
+    <tr>
+      <th scope="row">android-gradle-plugin</th>
+      <td>request across api dependencies 13 modules note debug resource gradle</td>
+    </tr>
+    <tr>
+      <th scope="row">android-studio</th>
+      <td>35 sync complete config debugger let 33 libraries studio studio</td>
+    </tr>
+    <tr>
+      <th scope="row">angular</th>
+      <td>export chunk bind 30 please httplocalhost component ionic angular angular</td>
+    </tr>
+    <tr>
+      <th scope="row">apache-spark</th>
+      <td> settings data cluster dataframe mean init apply gateway whole spark</td>
+    </tr>
+    <tr>
+      <th scope="row">arrays</th>
+      <td> performance sort pad large fast start amount confuse array array</td>
+    </tr>
+    <tr>
+      <th scope="row">asp.net-core</th>
+      <td> none certain web options public blazor core aspnet controller core</td>
+    </tr>
+    <tr>
+      <th scope="row">assembly</th>
+      <td>snippet seem resources store register 64 gcc special cpu mov</td>
+    </tr>
+    <tr>
+      <th scope="row">azure</th>
+      <td>storage plugin id options 09 db login 28 azure azure</td>
+    </tr>
+    <tr>
+      <th scope="row">c</th>
+      <td>atomic macro char integers pointer structure include exit gcc printf</td>
+    </tr>
+    <tr>
+      <th scope="row">c#</th>
+      <td> new .net bool var windows ef linq public c# c#</td>
+    </tr>
+    <tr>
+      <th scope="row">c++</th>
+      <td>endl c++20 template typename constexpr auto cout c++ std c++</td>
+    </tr>
+    <tr>
+      <th scope="row">c++11</th>
+      <td> wo min specify due --- namespace right part manage expression</td>
+    </tr>
+    <tr>
+      <th scope="row">c++14</th>
+      <td> never purpose cache char --- chain virtual parameter wrapper pass</td>
+    </tr>
+    <tr>
+      <th scope="row">c++17</th>
+      <td>constexpr private char ways real storage clang something variant c++17</td>
+    </tr>
+    <tr>
+      <th scope="row">c++20</th>
+      <td>parameters feature relationship range utf-8 coroutines constexpr part span c++20</td>
+    </tr>
+    <tr>
+      <th scope="row">css</th>
+      <td>properties overflow red scroll wrapper margin 100 important css css</td>
+    </tr>
+    <tr>
+      <th scope="row">dart</th>
+      <td>download constructor enable 31 dynamic code must flutter flutter dart</td>
+    </tr>
+    <tr>
+      <th scope="row">dataframe</th>
+      <td>new dataframe jupyter player vectors dataframes 09 lambda dataframe look</td>
+    </tr>
+    <tr>
+      <th scope="row">django</th>
+      <td>expect task union term option together field form model django</td>
+    </tr>
+    <tr>
+      <th scope="row">docker</th>
+      <td>80 ip env comment run container container docker-compose docker docker</td>
+    </tr>
+    <tr>
+      <th scope="row">ecmascript-6</th>
+      <td>say -- wait export children promise serve outside 36 es6</td>
+    </tr>
+    <tr>
+      <th scope="row">firebase</th>
+      <td>send database cloud function collection http comgooglefirebase firestore firebase firebase</td>
+    </tr>
+    <tr>
+      <th scope="row">flutter</th>
+      <td>children scroll clean title â¢ child dart widget flutter flutter</td>
+    </tr>
+    <tr>
+      <th scope="row">functional-programming</th>
+      <td>cat static additional map io black appreciate go transform functional</td>
+    </tr>
+    <tr>
+      <th scope="row">gcc</th>
+      <td>exception deduction special might inline param undefined eax gcc gcc</td>
+    </tr>
+    <tr>
+      <th scope="row">generics</th>
+      <td>super merge static bool generic extend cast trait allow generic</td>
+    </tr>
+    <tr>
+      <th scope="row">git</th>
+      <td> push submit merge branch edit pull branch commit git git</td>
+    </tr>
+    <tr>
+      <th scope="row">go</th>
+      <td>select step byte v8 append nil func err go go</td>
+    </tr>
+    <tr>
+      <th scope="row">google-chrome</th>
+      <td>url contain email stream assume submit param click chrome chrome</td>
+    </tr>
+    <tr>
+      <th scope="row">gradle</th>
+      <td>also dependency group alternative unable failure upgrade libraries gradle gradle</td>
+    </tr>
+    <tr>
+      <th scope="row">haskell</th>
+      <td>sense show io type language either nil monad instance haskell</td>
+    </tr>
+    <tr>
+      <th scope="row">html</th>
+      <td>wrap headers svg header leave overflow rgba important html html</td>
+    </tr>
+    <tr>
+      <th scope="row">ios</th>
+      <td>documentation real func xcode apple swift nil iphone ios ios</td>
+    </tr>
+    <tr>
+      <th scope="row">ios13</th>
+      <td>correctly small everything expect system dark share 13 13 ios13</td>
+    </tr>
+    <tr>
+      <th scope="row">java</th>
+      <td>new selenium jar spring entity jdk javafx java java systemoutprintln</td>
+    </tr>
+    <tr>
+      <th scope="row">java-8</th>
+      <td>stream java rule jar entity super systemoutprintln sort collect optional</td>
+    </tr>
+    <tr>
+      <th scope="row">java-stream</th>
+      <td>line super foreach max count lambda reduce stream stream collect</td>
+    </tr>
+    <tr>
+      <th scope="row">javascript</th>
+      <td>const js fetch display var js documentgetelementbyid consolelog javascript javascript</td>
+    </tr>
+    <tr>
+      <th scope="row">jestjs</th>
+      <td>act next mock weird configure unexpected resolution test describe jest</td>
+    </tr>
+    <tr>
+      <th scope="row">jquery</th>
+      <td>append option response functionality css script th function ajax jquery</td>
+    </tr>
+    <tr>
+      <th scope="row">json</th>
+      <td>30 include perl version year options powershell notification json json</td>
+    </tr>
+    <tr>
+      <th scope="row">keras</th>
+      <td>step operation batch pad 28 64 model loss layer keras</td>
+    </tr>
+    <tr>
+      <th scope="row">kotlin</th>
+      <td>every clear reference intellij scope fun face val kotlin kotlin</td>
+    </tr>
+    <tr>
+      <th scope="row">kubernetes</th>
+      <td>alert deployment see 29 instal pod namespace cluster kind kubernetes</td>
+    </tr>
+    <tr>
+      <th scope="row">lambda</th>
+      <td>instantiate context make callback server map length cell lambda lambda</td>
+    </tr>
+    <tr>
+      <th scope="row">language-lawyer</th>
+      <td>produce effect require protect via expression valid anything sign standard</td>
+    </tr>
+    <tr>
+      <th scope="row">laravel</th>
+      <td>queue many redirect methods php unique tag anyone route laravel</td>
+    </tr>
+    <tr>
+      <th scope="row">linux</th>
+      <td>write structure invoke terminal container detect cpu exit linux linux</td>
+    </tr>
+    <tr>
+      <th scope="row">list</th>
+      <td>monad previous compiler content 123 encode list structure occur list</td>
+    </tr>
+    <tr>
+      <th scope="row">machine-learning</th>
+      <td>initializer least pretty machine train set binary head network learn</td>
+    </tr>
+    <tr>
+      <th scope="row">macos</th>
+      <td> apple tell os default never platform config catalina mac macos</td>
+    </tr>
+    <tr>
+      <th scope="row">mongodb</th>
+      <td>engine connection document id collection simple faster db connect mongodb</td>
+    </tr>
+    <tr>
+      <th scope="row">multithreading</th>
+      <td> framework every able similar happen finish thread controller sometimes thread</td>
+    </tr>
+    <tr>
+      <th scope="row">mysql</th>
+      <td> year fit expect insert might commit design userid db mysql</td>
+    </tr>
+    <tr>
+      <th scope="row">node.js</th>
+      <td>res consolelog await normal npm require node node nodejs node.js</td>
+    </tr>
+    <tr>
+      <th scope="row">npm</th>
+      <td>versions compile stack firebase operator publish verbose rule npm npm</td>
+    </tr>
+    <tr>
+      <th scope="row">numpy</th>
+      <td>collection operation chunk nan 338 child 18 none numpy numpy</td>
+    </tr>
+    <tr>
+      <th scope="row">opencv</th>
+      <td>open ret edge img white image box frame detect opencv</td>
+    </tr>
+    <tr>
+      <th scope="row">optimization</th>
+      <td> might none bite exact cli network per terminate optimization optimize</td>
+    </tr>
+    <tr>
+      <th scope="row">pandas</th>
+      <td>days dataframe 338 columns finish dataframe nan groupby pandas pandas</td>
+    </tr>
+    <tr>
+      <th scope="row">performance</th>
+      <td>profile fast constant fastest branch still time performance performance faster</td>
+    </tr>
+    <tr>
+      <th scope="row">php</th>
+      <td>int filename route post array foreach echo laravel php php</td>
+    </tr>
+    <tr>
+      <th scope="row">postgresql</th>
+      <td> byte column record len body tuples resize database postgres postgresql</td>
+    </tr>
+    <tr>
+      <th scope="row">python</th>
+      <td>pandas except matplotlib numpy flask print numpy python def python</td>
+    </tr>
+    <tr>
+      <th scope="row">python-3.x</th>
+      <td>session real bad 43 36 answer probably delay def python</td>
+    </tr>
+    <tr>
+      <th scope="row">r</th>
+      <td>message theme unique dataframe datatable vector na dplyr package library</td>
+    </tr>
+    <tr>
+      <th scope="row">raku</th>
+      <td>top constant method hash ok sub perl raku say perl6</td>
+    </tr>
+    <tr>
+      <th scope="row">react-hooks</th>
+      <td>section prevent change onclick ref useeffect usestate const hook hook</td>
+    </tr>
+    <tr>
+      <th scope="row">react-native</th>
+      <td>001 render navigation screen style react native native expo react-native</td>
+    </tr>
+    <tr>
+      <th scope="row">reactjs</th>
+      <td>component npm render useeffect hook onclick classname react reactjs react</td>
+    </tr>
+    <tr>
+      <th scope="row">regex</th>
+      <td>hello begin start text perl extract regex match regular regex</td>
+    </tr>
+    <tr>
+      <th scope="row">ruby</th>
+      <td>hash already method 01 fine install require rail end ruby</td>
+    </tr>
+    <tr>
+      <th scope="row">ruby-on-rails</th>
+      <td>restart live block bundle equal submit render require end rail</td>
+    </tr>
+    <tr>
+      <th scope="row">rust</th>
+      <td>sync struct variable debug cpu reason self let rust fn</td>
+    </tr>
+    <tr>
+      <th scope="row">scala</th>
+      <td>io info unit jar spark case extend val def scala</td>
+    </tr>
+    <tr>
+      <th scope="row">spring</th>
+      <td>jar tag job jar exclude logic configuration nest spring spring</td>
+    </tr>
+    <tr>
+      <th scope="row">spring-boot</th>
+      <td>always private spring implement return jar setup dependency boot spring</td>
+    </tr>
+    <tr>
+      <th scope="row">sql</th>
+      <td>status clause join store oracle excel table declare select sql</td>
+    </tr>
+    <tr>
+      <th scope="row">sql-server</th>
+      <td>123 excel server source sql max select server declare sql</td>
+    </tr>
+    <tr>
+      <th scope="row">string</th>
+      <td>join output string fail str single host fastest string remove</td>
+    </tr>
+    <tr>
+      <th scope="row">swift</th>
+      <td>framework crash view finish pod environment func suggest let swift</td>
+    </tr>
+    <tr>
+      <th scope="row">swiftui</th>
+      <td>Larry</td>
+    </tr>
+    <tr>
+      <th scope="row">templates</th>
+      <td>level context condition generic void unique resolution templates main template</td>
+    </tr>
+    <tr>
+      <th scope="row">tensorflow</th>
+      <td>20 still layer model gpu keras batch shape tensorflow tensorflow</td>
+    </tr>
+    <tr>
+      <th scope="row">types</th>
+      <td>int apply symbol resolve bind connection approach kind consider type</td>
+    </tr>
+    <tr>
+      <th scope="row">typescript</th>
+      <td>const reduce please really extend calculate union ts typescript typescript</td>
+    </tr>
+    <tr>
+      <th scope="row">unit-testing</th>
+      <td>eslint execution hook pycharm excel pass weird mock test unit</td>
+    </tr>
+    <tr>
+      <th scope="row">visual-studio</th>
+      <td>2019 apply start windows miss release several studio visual visual</td>
+    </tr>
+    <tr>
+      <th scope="row">visual-studio-code</th>
+      <td>argument fire vs open extension launch visual code vs vscode</td>
+    </tr>
+    <tr>
+      <th scope="row">vue.js</th>
+      <td>config methods serve plugins template vuejs vuetify vue vue vue.js</td>
+    </tr>
+    <tr>
+      <th scope="row">webpack</th>
+      <td>typeerror js 17 plugins 13 production mean chunk webpack webpack</td>
+    </tr>
+    <tr>
+      <th scope="row">windows</th>
+      <td>symbol font utf-8 injection apple echo program powershell windows windows</td>
+    </tr>
+    <tr>
+      <th scope="row">x86</th>
+      <td>1000 mov replace cache buffer register address performance cpu eax</td>
+    </tr>
+    <tr>
+      <th scope="row">xcode</th>
+      <td>binary try cell apple 45 pod move ignore xcode xcode</td>
+    </tr>
+    <tr>
+      <th scope="row">xcode11</th>
+      <td>body manager never chain purpose iphone end scope xcode 11</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+<!-- /.container -->
+<script src={% static "js/jquery-3.2.1.min.js" %}></script>
+<script src={% static "vendor/bootstrap/js/bootstrap.min.js" %}></script>
+
+</body>
+</html>
