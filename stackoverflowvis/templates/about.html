@@ -8,6 +8,7 @@
     <link href="{% static "/vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
     <link href="{% static "/css/style.css" %}" rel="stylesheet">
 
+
 </head>
 <body>
 
@@ -18,11 +19,33 @@
     </button>
     <div class="collapse navbar-collapse text-center" id="navbarNav">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="/stackoverflowvis">Home</a>
-            </li>
             <li class="nav-item active">
-                <a class="nav-link" href="about">About</a>
+                <a class="nav-link" href="about">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Charts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="table-titles">Posts/Users</a>
+                  <a class="dropdown-item" href="table-features">Top tags</a>
+                </div>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Network Graphs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="table-titles">Graphs</a>
+                  <a class="dropdown-item" href="table-features">Clusters</a>
+                </div>
+            </li>
+
+           
+            <li class="nav-item">
+                <a class="nav-link" href="about">Heatmap</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="worldmap">World Map</a>
@@ -55,7 +78,7 @@
 </header>
 
 <!-- Page Content -->
-<div class="container">
+<div class="container portfolio">
 
     <!-- Portfolio Item Heading -->
     <h1 class="my-4">Page Heading
@@ -104,21 +127,28 @@ The development of programming languages over time based on use of their tags si
                 </ul>
         </div>
     </div>
+    <hr>
     <!-- /.row -->
+    
+    
+    <!-- from here  -->
     <div class="row">
-        <h2>Hi there</h2>
-    </div>
-    <!-- Portfolio Item Row -->
-    <div class="row">
-
         <div class="col-md-8">
-            <img class="img-fluid" src="{% static "img/heatmapeimg.png"  %} " alt="">
+            <a href="heatmap">
+                <div class="portfolio-item mx-auto">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
+                            <h2>Heat map</h2>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="{% static "img/Frame5.png"  %} " alt="">
+                </div>
+            </a>
         </div>
-
         <div class="col-md-4">
-            <h3 class="my-3">Project Description</h3>
+            <h3>Project Description</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-            <h3 class="my-3">Project Details</h3>
+            <h3>Project Details</h3>
             <ul>
                 <li>Lorem Ipsum</li>
                 <li>Dolor Sit Amet</li>
@@ -126,8 +156,74 @@ The development of programming languages over time based on use of their tags si
                 <li>Adipiscing Elit</li>
             </ul>
         </div>
-
     </div>
+    <hr>
+    <!-- to here -->
+
+
+
+    <!-- style 2 from here -->
+
+
+    <div class="row">
+            <div class="col-md-4">
+                <h3>Hi there</h3>
+                <a href="heatmap">
+                    <div class="portfolio-item mx-auto">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h2>Heat map</h2>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="{% static "img/Frame5.png"  %} " alt="">
+                    </div>
+                </a>
+                
+            </div>
+                <div class="col-md-4">
+                    <h3>Hi there</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quam mollitia veniam. Repellat voluptas modi blanditiis repudiandae in excepturi iusto?</p>
+                    <a href="heatmap">
+                        <div class="portfolio-item mx-auto">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <h2>Heat map</h2>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{% static "img/Frame5.png"  %} " alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Hi there</h3>
+                    <a href="heatmap">
+                        <div class="portfolio-item mx-auto">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <h2>Heat map</h2>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{% static "img/Frame5.png"  %} " alt="">
+                        </div>
+                    </a>
+                </div>
+    </div>
+    <hr>
+
+
+    <!-- style 2 to here -->
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Portfolio Item Row -->
     <div class="row">
