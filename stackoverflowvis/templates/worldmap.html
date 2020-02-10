@@ -77,16 +77,9 @@
             </li>
 
             
-            <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Network Graphs
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="graph">Graphs</a>
-                  <a class="dropdown-item" href="cluster">Clusters</a>
-                </div>
+           <li class="nav-item">
+                <a class="nav-link" href="graph">Graphs</a>
             </li>
-
            
             <li class="nav-item">
                 <a class="nav-link" href="heatmap">Heatmap</a>
@@ -113,7 +106,7 @@
     <div class="row">
       <div class="col-md-8">
           <div class="row mt-3">
-              <div class="col-md-6 worldmap-header-controller">
+              <div class="col-md-4 worldmap-header-controller">
                   <p>Pick a tag and load data</p>
                   <button class="getData btn btn-info">Load Data</button>
                   <select id="tag" class="">
@@ -121,10 +114,17 @@
                   </select>
                   <h2 class="mt-3">Tag Count: <span id="countPlaceholder">0</span></h2>
               </div>
-              <div class="col-md-6 worldmap-header-controller">
+              <div class="col-md-5 worldmap-header-controller">
                   <p>Load Posts count</p>
                   <button class="getData2 btn btn-info">Load Data</button>
                   <h2 class="mt-3">Post Count: <span id="countPlaceholder2">0</span></h2>
+              </div>
+              <div class="col-md-3">
+                  <p>Change data range</p>
+                  <select name="" id="changeRange">
+                      <option value="2012-2015">2012-2015</option>
+                      <option value="2016-2019">2016-2019</option>
+                  </select>
               </div>
               
           </div>
@@ -132,7 +132,7 @@
       <div class="col-md-4">
         <p>
           <h4>Stack overflow map</h4>
-          <p>Count of  Stack Overflow posts for top countries in last four years and count of top ten tags in Stack Overflow in top countries in last four years</p>
+          <p>Count of  Stack Overflow posts for top countries in 2012-2015 , 2016-2019 and count of top ten tags in Stack Overflow in top countries in 2012-2015 , 2016-2019</p>
         </p>
         
       </div>
@@ -156,6 +156,13 @@
   <script>
 
 var allData;
+var dataPeriods = '-2012-2015.json';
+
+$(document).on('change', '#changeRange', function(e){
+    e.preventDefault();
+    
+    dataPeriods = '-'+$(this).val()+'.json';
+});
 
   $(document).on('click', '.getData', function(e){
       e.preventDefault();
@@ -165,7 +172,7 @@ var allData;
 
       var data = $.getJSON({
         dataType: "json",
-        url: '/static/data/map.json',
+        url: '/static/data/tags' + dataPeriods,
         success: function (res) {
             var mapData = res;
             allData = mapData;
@@ -182,7 +189,7 @@ var allData;
 
     var data = $.getJSON({
         dataType: "json",
-        url: '/static/data/post-counts-map.json',
+        url: '/static/data/posts' + dataPeriods,
         success: function (res) {
                 var mapData = res;
                 $paths = $('path');

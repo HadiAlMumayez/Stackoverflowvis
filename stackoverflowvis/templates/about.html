@@ -32,17 +32,9 @@
                 </div>
             </li>
 
-            
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Network Graphs
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="graph">Graphs</a>
-                  <a class="dropdown-item" href="cluster">Clusters</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="graph">Graphs</a>
             </li>
-
            
             <li class="nav-item">
                 <a class="nav-link" href="heatmap">Heatmap</a>
@@ -86,36 +78,18 @@
 
         <div class="col-md-6">
             <h3 class="">Project Description</h3>
-            <p>Building a website using Django to view the accurate analyzes and studies we've done on Stack Overflow dataset by Spark and Python.
+            <p>Building a website using Django to view the accurate analyzes and studies we've done on Stack Overflow dataset.
             Stack Overflow (SO) is the largest Q&A website for developers, providing a huge amount of data,. This web sites often rely upon tags as metadata that assists in the indexing, categorization, and search for particular content with just a few key words.
             The most obvious benefit stems from the fact that tags help ensure that website data is properly categorized and easily searchable by users.
             This was the biggest motivation for us to conduct large-scale analytical studies on the Stack Overflow social network using  graph theory.
             The underlying structure of the Stack Overflow network is diverse and complex since users and tags can be related through various questions, answers, and comments. We picked certain relationships between objects that we deemed to likely be the most indicative and constructed the appropriate graphs.
             Some of the results that we tried to find by analyzing the questions asked in Stack Overflow
             The development of programming languages over time based on use of their tags since 2008, Finding Similar Tags , How many questions are asked with the  number of TopTags in countries
-            and What are the most commonly used tags</p>
+            and What are the most commonly used tags. Enjoy the visualization of our analysis below.</p>
         </div>
 
     </div>
-    <div class="row">
-        <div class="col-md-4">
-                <h5 class="my-2">types of algorithms we used:</h5>
-                <ul>
-                    <li>community detection</li>
-                    <li>machine learning algorithm</li>
-                </ul>
-        </div>
-        <div class="col-md-8">
-                <h5 class="my-5"> 
-
-                </h5>
-                <ul>
-                    <li>classification</li>
-                    <li>clustering</li>
-                    
-                </ul>
-        </div>
-    </div>
+    
     <hr>
     <!-- /.row -->
     
@@ -177,7 +151,7 @@
             <p>Top 20 tags with count of related tags  in last tow years from Stack Overflow posts that have more than one answer coun</p>
             <div class="mb-5 mt-5" style="height: 20px;"></div>
             <h2 class="text-right">World Map </h2>
-            <p class="text-right">Count of  Stack Overflow posts for top countries in last four years and count of top ten tags in Stack Overflow in top countries in last four years</p>
+            <p class="text-right">Count of  Stack Overflow posts for top countries in 2012-2015 , 2016 - 2019 and count of top ten tags in Stack Overflow in top countries in 2012-2015 , 2016-2017</p>
         </div>
         <div class="col-md-4">
             <a href="worldmap">
@@ -248,7 +222,6 @@
     <h2 class="my-4">Network Graphs </h2>
     <div class="row">
             <div class="col-md-4 col-lg-4">
-                <h3>Graphs</h3>
                 <a href="graph">
                     <div class="portfolio-item mx-auto">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -259,23 +232,11 @@
                         <img class="img-fluid" src="{% static "img/cluster.png" %} " alt="">
                     </div>
                 </a>
-                <p> Representing Stack Overflow tags as nodes and c-occurance between tags as edges for Stack Overflow posts that have more than one answer count in in (2014-2015), (2016-2017),(2018-2019)</p>
             </div>
-            <div class="col-md-4"></div>
             <div class="col-md-4">
-                <h3>Clusters</h3>
-                <a href="cluster">
-                    <div class="portfolio-item mx-auto">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">
-                                <h2>Clusters</h2>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="{% static "img/frame2.png"  %} " alt="">
-                    </div>
-                </a>
-                <p>Clustering Stack Overflow top 10 tags in 2018-2019</p>
+                <p> Representing Stack Overflow tags as nodes and c-occurance between tags as edges for Stack Overflow posts that have more than one answer count in in (2014-2015), (2016-2017),(2018-2019)</p>  
             </div>
+            
     </div>
     <hr>
 

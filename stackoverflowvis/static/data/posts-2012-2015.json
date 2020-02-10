@@ -1,0 +1,97 @@
+[
+  {
+    "Location": "Philippines",
+    "count": 12739,
+    "alpha": "4.78"
+  },
+  {
+    "Location": "Belgium",
+    "count": 16455,
+    "alpha": "6.18"
+  },
+  {
+    "Location": "Poland",
+    "count": 17623,
+    "alpha": "6.62"
+  },
+  {
+    "Location": "Singapore",
+    "count": 19431,
+    "alpha": "7.30"
+  },
+  {
+    "Location": "Russia",
+    "count": 27719,
+    "alpha": "10.41"
+  },
+  {
+    "Location": "Brazil",
+    "count": 28737,
+    "alpha": "10.79"
+  },
+  {
+    "Location": "Netherlands",
+    "count": 32995,
+    "alpha": "12.39"
+  },
+  {
+    "Location": "Canada",
+    "count": 39974,
+    "alpha": "15.01"
+  },
+  {
+    "Location": "Italy",
+    "count": 46400,
+    "alpha": "17.42"
+  },
+  {
+    "Location": "Japan",
+    "count": 46805,
+    "alpha": "17.57"
+  },
+  {
+    "Location": "France",
+    "count": 48143,
+    "alpha": "18.08"
+  },
+  {
+    "Location": "Germany",
+    "count": 70945,
+    "alpha": "26.64"
+  },
+  {
+    "Location": "Sweden",
+    "count": 82155,
+    "alpha": "30.84"
+  },
+  {
+    "Location": "China",
+    "count": 88865,
+    "alpha": "33.36"
+  },
+  {
+    "Location": "Australia",
+    "count": 102899,
+    "alpha": "38.63"
+  },
+  {
+    "Location": "Spain",
+    "count": 117600,
+    "alpha": "44.15"
+  },
+  {
+    "Location": "London",
+    "count": 117677,
+    "alpha": "44.18"
+  },
+  {
+    "Location": "India",
+    "count": 220067,
+    "alpha": "82.62"
+  },
+  {
+    "Location": "United States",
+    "count": 266349,
+    "alpha": "100.00"
+  }
+]

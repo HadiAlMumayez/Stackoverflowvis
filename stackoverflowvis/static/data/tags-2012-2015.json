@@ -1,0 +1,1162 @@
+{
+  "javascript": [
+    {
+      "Location": "Philippines",
+      "Tag1": "javascript",
+      "count": 1453,
+      "alpha": "5.06"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "javascript",
+      "count": 1521,
+      "alpha": "5.30"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "javascript",
+      "count": 1683,
+      "alpha": "5.86"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "javascript",
+      "count": 1749,
+      "alpha": "6.09"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "javascript",
+      "count": 2103,
+      "alpha": "7.33"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "javascript",
+      "count": 2881,
+      "alpha": "10.04"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "javascript",
+      "count": 3479,
+      "alpha": "12.12"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "javascript",
+      "count": 3960,
+      "alpha": "13.80"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "javascript",
+      "count": 3966,
+      "alpha": "13.82"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "javascript",
+      "count": 4468,
+      "alpha": "15.57"
+    },
+    {
+      "Location": "France",
+      "Tag1": "javascript",
+      "count": 5025,
+      "alpha": "17.51"
+    },
+    {
+      "Location": "China",
+      "Tag1": "javascript",
+      "count": 6305,
+      "alpha": "21.97"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "javascript",
+      "count": 6427,
+      "alpha": "22.39"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "javascript",
+      "count": 9573,
+      "alpha": "33.35"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "javascript",
+      "count": 10312,
+      "alpha": "35.93"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "javascript",
+      "count": 11323,
+      "alpha": "39.45"
+    },
+    {
+      "Location": "London",
+      "Tag1": "javascript",
+      "count": 13531,
+      "alpha": "47.14"
+    },
+    {
+      "Location": "India",
+      "Tag1": "javascript",
+      "count": 20941,
+      "alpha": "72.96"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "javascript",
+      "count": 28702,
+      "alpha": "100.00"
+    }
+  ],
+  "java": [
+    {
+      "Location": "Philippines",
+      "Tag1": "java",
+      "count": 1232,
+      "alpha": "4.83"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "java",
+      "count": 1650,
+      "alpha": "6.47"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "java",
+      "count": 1755,
+      "alpha": "6.88"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "java",
+      "count": 1983,
+      "alpha": "7.77"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "java",
+      "count": 2477,
+      "alpha": "9.71"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "java",
+      "count": 2625,
+      "alpha": "10.29"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "java",
+      "count": 2688,
+      "alpha": "10.53"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "java",
+      "count": 2703,
+      "alpha": "10.59"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "java",
+      "count": 3838,
+      "alpha": "15.04"
+    },
+    {
+      "Location": "France",
+      "Tag1": "java",
+      "count": 4181,
+      "alpha": "16.38"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "java",
+      "count": 6415,
+      "alpha": "25.14"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "java",
+      "count": 6523,
+      "alpha": "25.56"
+    },
+    {
+      "Location": "China",
+      "Tag1": "java",
+      "count": 6910,
+      "alpha": "27.08"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "java",
+      "count": 7155,
+      "alpha": "28.04"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "java",
+      "count": 7782,
+      "alpha": "30.49"
+    },
+    {
+      "Location": "London",
+      "Tag1": "java",
+      "count": 8429,
+      "alpha": "33.03"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "java",
+      "count": 10240,
+      "alpha": "40.12"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "java",
+      "count": 19792,
+      "alpha": "77.55"
+    },
+    {
+      "Location": "India",
+      "Tag1": "java",
+      "count": 25521,
+      "alpha": "100.00"
+    }
+  ],
+  "c#": [
+    {
+      "Location": "Philippines",
+      "Tag1": "c#",
+      "count": 1208,
+      "alpha": "6.66"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "c#",
+      "count": 1447,
+      "alpha": "7.98"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "c#",
+      "count": 1830,
+      "alpha": "10.09"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "c#",
+      "count": 2240,
+      "alpha": "12.35"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "c#",
+      "count": 2465,
+      "alpha": "13.59"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "c#",
+      "count": 2584,
+      "alpha": "14.25"
+    },
+    {
+      "Location": "France",
+      "Tag1": "c#",
+      "count": 2622,
+      "alpha": "14.46"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "c#",
+      "count": 2703,
+      "alpha": "14.90"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "c#",
+      "count": 2963,
+      "alpha": "16.34"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "c#",
+      "count": 3288,
+      "alpha": "18.13"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "c#",
+      "count": 3806,
+      "alpha": "20.98"
+    },
+    {
+      "Location": "China",
+      "Tag1": "c#",
+      "count": 4395,
+      "alpha": "24.23"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "c#",
+      "count": 5732,
+      "alpha": "31.60"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "c#",
+      "count": 7167,
+      "alpha": "39.51"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "c#",
+      "count": 8148,
+      "alpha": "44.92"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "c#",
+      "count": 9813,
+      "alpha": "54.10"
+    },
+    {
+      "Location": "London",
+      "Tag1": "c#",
+      "count": 12165,
+      "alpha": "67.07"
+    },
+    {
+      "Location": "India",
+      "Tag1": "c#",
+      "count": 16282,
+      "alpha": "89.77"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "c#",
+      "count": 18138,
+      "alpha": "100.00"
+    }
+  ],
+  "python": [
+    {
+      "Location": "Philippines",
+      "Tag1": "python",
+      "count": 258,
+      "alpha": "1.52"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "python",
+      "count": 521,
+      "alpha": "3.07"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "python",
+      "count": 575,
+      "alpha": "3.39"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "python",
+      "count": 1294,
+      "alpha": "7.63"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "python",
+      "count": 1309,
+      "alpha": "7.72"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "python",
+      "count": 1363,
+      "alpha": "8.04"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "python",
+      "count": 1409,
+      "alpha": "8.31"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "python",
+      "count": 1433,
+      "alpha": "8.45"
+    },
+    {
+      "Location": "France",
+      "Tag1": "python",
+      "count": 2164,
+      "alpha": "12.77"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "python",
+      "count": 2169,
+      "alpha": "12.80"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "python",
+      "count": 2415,
+      "alpha": "14.25"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "python",
+      "count": 3275,
+      "alpha": "19.32"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "python",
+      "count": 3428,
+      "alpha": "20.22"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "python",
+      "count": 4098,
+      "alpha": "24.18"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "python",
+      "count": 5413,
+      "alpha": "31.94"
+    },
+    {
+      "Location": "London",
+      "Tag1": "python",
+      "count": 5448,
+      "alpha": "32.14"
+    },
+    {
+      "Location": "China",
+      "Tag1": "python",
+      "count": 6985,
+      "alpha": "41.21"
+    },
+    {
+      "Location": "India",
+      "Tag1": "python",
+      "count": 7172,
+      "alpha": "42.31"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "python",
+      "count": 16950,
+      "alpha": "100.00"
+    }
+  ],
+  "php": [
+    {
+      "Location": "Russia",
+      "Tag1": "php",
+      "count": 1043,
+      "alpha": "6.61"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "php",
+      "count": 1116,
+      "alpha": "7.07"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "php",
+      "count": 1196,
+      "alpha": "7.58"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "php",
+      "count": 1250,
+      "alpha": "7.92"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "php",
+      "count": 1903,
+      "alpha": "12.06"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "php",
+      "count": 1915,
+      "alpha": "12.14"
+    },
+    {
+      "Location": "Philippines",
+      "Tag1": "php",
+      "count": 2129,
+      "alpha": "13.49"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "php",
+      "count": 2648,
+      "alpha": "16.78"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "php",
+      "count": 3329,
+      "alpha": "21.10"
+    },
+    {
+      "Location": "China",
+      "Tag1": "php",
+      "count": 3380,
+      "alpha": "21.42"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "php",
+      "count": 3647,
+      "alpha": "23.11"
+    },
+    {
+      "Location": "France",
+      "Tag1": "php",
+      "count": 3674,
+      "alpha": "23.29"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "php",
+      "count": 3842,
+      "alpha": "24.35"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "php",
+      "count": 4423,
+      "alpha": "28.03"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "php",
+      "count": 5953,
+      "alpha": "37.73"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "php",
+      "count": 8599,
+      "alpha": "54.50"
+    },
+    {
+      "Location": "London",
+      "Tag1": "php",
+      "count": 10304,
+      "alpha": "65.31"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "php",
+      "count": 13230,
+      "alpha": "83.85"
+    },
+    {
+      "Location": "India",
+      "Tag1": "php",
+      "count": 15778,
+      "alpha": "100.00"
+    }
+  ],
+  "android": [
+    {
+      "Location": "Belgium",
+      "Tag1": "android",
+      "count": 777,
+      "alpha": "3.21"
+    },
+    {
+      "Location": "Philippines",
+      "Tag1": "android",
+      "count": 808,
+      "alpha": "3.33"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "android",
+      "count": 928,
+      "alpha": "3.83"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "android",
+      "count": 1290,
+      "alpha": "5.32"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "android",
+      "count": 1486,
+      "alpha": "6.13"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "android",
+      "count": 1682,
+      "alpha": "6.94"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "android",
+      "count": 1987,
+      "alpha": "8.20"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "android",
+      "count": 2397,
+      "alpha": "9.89"
+    },
+    {
+      "Location": "France",
+      "Tag1": "android",
+      "count": 2557,
+      "alpha": "10.55"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "android",
+      "count": 2890,
+      "alpha": "11.93"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "android",
+      "count": 3235,
+      "alpha": "13.35"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "android",
+      "count": 3324,
+      "alpha": "13.72"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "android",
+      "count": 3418,
+      "alpha": "14.11"
+    },
+    {
+      "Location": "London",
+      "Tag1": "android",
+      "count": 3824,
+      "alpha": "15.78"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "android",
+      "count": 3971,
+      "alpha": "16.39"
+    },
+    {
+      "Location": "China",
+      "Tag1": "android",
+      "count": 5525,
+      "alpha": "22.80"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "android",
+      "count": 10148,
+      "alpha": "41.88"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "android",
+      "count": 12133,
+      "alpha": "50.07"
+    },
+    {
+      "Location": "India",
+      "Tag1": "android",
+      "count": 24231,
+      "alpha": "100.00"
+    }
+  ],
+  "c++": [
+    {
+      "Location": "Philippines",
+      "Tag1": "c++",
+      "count": 207,
+      "alpha": "2.45"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "c++",
+      "count": 509,
+      "alpha": "6.04"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "c++",
+      "count": 644,
+      "alpha": "7.64"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "c++",
+      "count": 785,
+      "alpha": "9.31"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "c++",
+      "count": 823,
+      "alpha": "9.76"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "c++",
+      "count": 1202,
+      "alpha": "14.26"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "c++",
+      "count": 1569,
+      "alpha": "18.61"
+    },
+    {
+      "Location": "France",
+      "Tag1": "c++",
+      "count": 1879,
+      "alpha": "22.28"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "c++",
+      "count": 1885,
+      "alpha": "22.36"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "c++",
+      "count": 1924,
+      "alpha": "22.82"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "c++",
+      "count": 2070,
+      "alpha": "24.55"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "c++",
+      "count": 2442,
+      "alpha": "28.96"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "c++",
+      "count": 2599,
+      "alpha": "30.82"
+    },
+    {
+      "Location": "London",
+      "Tag1": "c++",
+      "count": 3510,
+      "alpha": "41.63"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "c++",
+      "count": 3707,
+      "alpha": "43.96"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "c++",
+      "count": 3798,
+      "alpha": "45.04"
+    },
+    {
+      "Location": "China",
+      "Tag1": "c++",
+      "count": 4855,
+      "alpha": "57.58"
+    },
+    {
+      "Location": "India",
+      "Tag1": "c++",
+      "count": 4893,
+      "alpha": "58.03"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "c++",
+      "count": 8432,
+      "alpha": "100.00"
+    }
+  ],
+  "ios": [
+    {
+      "Location": "Philippines",
+      "Tag1": "ios",
+      "count": 296,
+      "alpha": "2.51"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "ios",
+      "count": 407,
+      "alpha": "3.44"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "ios",
+      "count": 459,
+      "alpha": "3.88"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "ios",
+      "count": 835,
+      "alpha": "7.07"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "ios",
+      "count": 876,
+      "alpha": "7.41"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "ios",
+      "count": 1044,
+      "alpha": "8.84"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "ios",
+      "count": 1211,
+      "alpha": "10.25"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "ios",
+      "count": 1270,
+      "alpha": "10.75"
+    },
+    {
+      "Location": "France",
+      "Tag1": "ios",
+      "count": 2207,
+      "alpha": "18.68"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "ios",
+      "count": 2253,
+      "alpha": "19.07"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "ios",
+      "count": 2439,
+      "alpha": "20.64"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "ios",
+      "count": 3473,
+      "alpha": "29.39"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "ios",
+      "count": 3766,
+      "alpha": "31.87"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "ios",
+      "count": 4060,
+      "alpha": "34.36"
+    },
+    {
+      "Location": "London",
+      "Tag1": "ios",
+      "count": 4240,
+      "alpha": "35.88"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "ios",
+      "count": 5336,
+      "alpha": "45.16"
+    },
+    {
+      "Location": "China",
+      "Tag1": "ios",
+      "count": 5510,
+      "alpha": "46.63"
+    },
+    {
+      "Location": "India",
+      "Tag1": "ios",
+      "count": 7483,
+      "alpha": "63.33"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "ios",
+      "count": 11816,
+      "alpha": "100.00"
+    }
+  ],
+  "jquery": [
+    {
+      "Location": "Russia",
+      "Tag1": "jquery",
+      "count": 301,
+      "alpha": "4.70"
+    },
+    {
+      "Location": "Singapore",
+      "Tag1": "jquery",
+      "count": 340,
+      "alpha": "5.31"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "jquery",
+      "count": 352,
+      "alpha": "5.50"
+    },
+    {
+      "Location": "Philippines",
+      "Tag1": "jquery",
+      "count": 366,
+      "alpha": "5.72"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "jquery",
+      "count": 399,
+      "alpha": "6.23"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "jquery",
+      "count": 542,
+      "alpha": "8.47"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "jquery",
+      "count": 715,
+      "alpha": "11.17"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "jquery",
+      "count": 844,
+      "alpha": "13.19"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "jquery",
+      "count": 941,
+      "alpha": "14.70"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "jquery",
+      "count": 964,
+      "alpha": "15.06"
+    },
+    {
+      "Location": "France",
+      "Tag1": "jquery",
+      "count": 1042,
+      "alpha": "16.28"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "jquery",
+      "count": 1105,
+      "alpha": "17.27"
+    },
+    {
+      "Location": "China",
+      "Tag1": "jquery",
+      "count": 1180,
+      "alpha": "18.44"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "jquery",
+      "count": 1944,
+      "alpha": "30.38"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "jquery",
+      "count": 2264,
+      "alpha": "35.38"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "jquery",
+      "count": 2671,
+      "alpha": "41.73"
+    },
+    {
+      "Location": "London",
+      "Tag1": "jquery",
+      "count": 3919,
+      "alpha": "61.23"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "jquery",
+      "count": 6296,
+      "alpha": "98.38"
+    },
+    {
+      "Location": "India",
+      "Tag1": "jquery",
+      "count": 6400,
+      "alpha": "100.00"
+    }
+  ],
+  "html": [
+    {
+      "Location": "Singapore",
+      "Tag1": "html",
+      "count": 249,
+      "alpha": "4.99"
+    },
+    {
+      "Location": "Poland",
+      "Tag1": "html",
+      "count": 272,
+      "alpha": "5.45"
+    },
+    {
+      "Location": "Belgium",
+      "Tag1": "html",
+      "count": 281,
+      "alpha": "5.63"
+    },
+    {
+      "Location": "Philippines",
+      "Tag1": "html",
+      "count": 282,
+      "alpha": "5.65"
+    },
+    {
+      "Location": "Russia",
+      "Tag1": "html",
+      "count": 375,
+      "alpha": "7.52"
+    },
+    {
+      "Location": "Brazil",
+      "Tag1": "html",
+      "count": 439,
+      "alpha": "8.80"
+    },
+    {
+      "Location": "France",
+      "Tag1": "html",
+      "count": 705,
+      "alpha": "14.13"
+    },
+    {
+      "Location": "Canada",
+      "Tag1": "html",
+      "count": 787,
+      "alpha": "15.77"
+    },
+    {
+      "Location": "Japan",
+      "Tag1": "html",
+      "count": 800,
+      "alpha": "16.03"
+    },
+    {
+      "Location": "Netherlands",
+      "Tag1": "html",
+      "count": 858,
+      "alpha": "17.19"
+    },
+    {
+      "Location": "Italy",
+      "Tag1": "html",
+      "count": 996,
+      "alpha": "19.96"
+    },
+    {
+      "Location": "Germany",
+      "Tag1": "html",
+      "count": 1136,
+      "alpha": "22.77"
+    },
+    {
+      "Location": "China",
+      "Tag1": "html",
+      "count": 1265,
+      "alpha": "25.35"
+    },
+    {
+      "Location": "Sweden",
+      "Tag1": "html",
+      "count": 1368,
+      "alpha": "27.41"
+    },
+    {
+      "Location": "Australia",
+      "Tag1": "html",
+      "count": 2049,
+      "alpha": "41.06"
+    },
+    {
+      "Location": "Spain",
+      "Tag1": "html",
+      "count": 2267,
+      "alpha": "45.43"
+    },
+    {
+      "Location": "London",
+      "Tag1": "html",
+      "count": 2881,
+      "alpha": "57.74"
+    },
+    {
+      "Location": "India",
+      "Tag1": "html",
+      "count": 3333,
+      "alpha": "66.79"
+    },
+    {
+      "Location": "United States",
+      "Tag1": "html",
+      "count": 4990,
+      "alpha": "100.00"
+    }
+  ]
+}
