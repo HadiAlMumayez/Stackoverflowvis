@@ -27,6 +27,7 @@
 
 </style>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,13 +36,32 @@
     <div class="collapse navbar-collapse text-center" id="navbarNav">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/stackoverflowvis">Home</a>
+                <a class="nav-link" href="about">Home</a>
             </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Charts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="chartTemp">Posts/Users</a>
+                  <a class="dropdown-item active" href="chart">Top tags</a>
+                </div>
+            </li>
+
+            
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Network Graphs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="graph">Graphs</a>
+                  <a class="dropdown-item" href="cluster">Clusters</a>
+                </div>
+            </li>
+
+           
             <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="cluster">Cluster</a>
+                <a class="nav-link" href="heatmap">Heatmap</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="worldmap">World Map</a>
@@ -60,6 +80,7 @@
         </ul>
     </div>
 </nav>
+
 <div class="container">
     <div id="svg"></div>
     <h4 class="text-center mt-3">Number of top ten tags in Stack Overflow posts that have more than one answer count from 2014 to 2019</h4>

@@ -28,10 +28,10 @@ def chartView(request):
     return render(request, "temp.html")
 
 def chartTempView(request):
-    return render(request, "temp2.html")
+    return render(request, "chart.html")
 
 def chart2TempView(request):
-    return render(request, "temp-2.html")
+    return render(request, "chart2.html")
 
 def aboutView(request):
     return render(request, "about.html")
