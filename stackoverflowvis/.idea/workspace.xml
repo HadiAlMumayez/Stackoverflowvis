@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebfe1de4-799c-4349-892e-e7fecba98637" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/posts-2012-2015.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/tags-2012-2015.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/map.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/tags-2016-2019.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/post-counts-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/posts-2016-2019.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/post-small-2018-2019.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/post-small-2018-2019.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/chart2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chart2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cluster.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controls.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/heatmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/heatmap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/table-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/table-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/table-titles.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/table-titles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tag-cloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tag-cloud.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/worldmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/worldmap.html" afterDir="false" />
-    </list>
+    <list default="true" id="ebfe1de4-799c-4349-892e-e7fecba98637" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
